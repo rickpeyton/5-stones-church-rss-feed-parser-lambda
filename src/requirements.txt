@@ -1,0 +1,7 @@
+# pip requirements file, list all items as they are installed with the "--no-dependencies" flag
+
+requests
+beautifulsoup4
+bs4
+lxml
+pytest
