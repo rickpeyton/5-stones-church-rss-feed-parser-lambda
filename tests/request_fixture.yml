@@ -1,0 +1,158 @@
+!!python/object:requests.models.Response
+_content: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<rss version=\"2.0\" xmlns:atom=\"\
+  http://www.w3.org/2005/Atom\" xmlns:cc=\"http://web.resource.org/cc/\" xmlns:itunes=\"\
+  http://www.itunes.com/dtds/podcast-1.0.dtd\" xmlns:media=\"http://search.yahoo.com/mrss/\"\
+  \ xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">\n\t<channel>\n\t\t\
+  <atom:link href=\"http://5stoneschurch.libsyn.com/rss\" rel=\"self\" type=\"application/rss+xml\"\
+  />\n\t\t<title>5 Stones Church  - Weekend Messages</title>\n\t\t<pubDate>Sun, 05\
+  \ Mar 2017 20:15:44 +0000</pubDate>\n\t\t<lastBuildDate>Thu, 09 Mar 2017 03:24:19\
+  \ +0000</lastBuildDate>\n\t\t<generator>Libsyn WebEngine 2.0</generator>\n\t\t<link>http://www.5stoneschurch.com</link>\n\
+  \t\t<language>en</language>\n\t\t<copyright><![CDATA[]]></copyright>\n\t\t<docs>http://www.5stoneschurch.com</docs>\n\
+  \t\t<managingEditor>media@5stoneschurch.com (media@5stoneschurch.com)</managingEditor>\n\
+  \t\t<itunes:summary><![CDATA[5 Stones Church exists to help people; Follow Jesus,\
+  \ Discover Purpose, Experience Freedom, Make a Difference. 5 Stones Church is a\
+  \ life-giving church in Franklin, Tennessee.]]></itunes:summary>\n\t\t<image>\n\t\
+  \t\t<url>http://static.libsyn.com/p/assets/a/9/3/6/a9361f61512c421c/podcast-logo.jpg</url>\n\
+  \t\t\t<title>5 Stones Church  - Weekend Messages</title>\n\t\t\t<link><![CDATA[http://www.5stoneschurch.com]]></link>\n\
+  \t\t</image>\n\t\t<itunes:author>Pastor Sean Clarke</itunes:author>\n\t\t<itunes:keywords>5stoneschurch,christianity,franklintn,messages,pastorseanclarke,sermons</itunes:keywords>\n\
+  \t<itunes:category text=\"Religion &amp; Spirituality\">\n\t\t<itunes:category text=\"\
+  Christianity\"/>\n\t</itunes:category>\n\t\t<itunes:image href=\"http://static.libsyn.com/p/assets/a/9/3/6/a9361f61512c421c/podcast-logo.jpg\"\
+  \ />\n\t\t<itunes:explicit>clean</itunes:explicit>\n\t\t<itunes:owner>\n\t\t\t<itunes:name><![CDATA[Rick\
+  \ Peyton]]></itunes:name>\n\t\t\t<itunes:email>media@5stoneschurch.com</itunes:email>\n\
+  \t\t</itunes:owner>\n\t\t<description><![CDATA[A life-giving church in Franklin,\
+  \ TN. Follow Jesus - Experience Freedom - Discover Purpose - Make a Difference.\
+  \ 10 AM - Freedom Intermediate School]]></description>\n\t\t<itunes:subtitle><![CDATA[5\
+  \ Stones Church - Weekend Messages]]></itunes:subtitle>\n\t\t\t\t<item>\n\t\t\t\
+  <title>Doors - Part 1</title>\n\t\t\t<pubDate>Sun, 05 Mar 2017 20:15:44 +0000</pubDate>\n\
+  \t\t\t<guid isPermaLink=\"false\"><![CDATA[712cd83bab33a0491f1a03d516db9b7d]]></guid>\n\
+  \t\t\t<link><![CDATA[http://traffic.libsyn.com/5stoneschurch/20170305_-_Doors_Part_1.mp3]]></link>\n\
+  \t\t\t<itunes:image href=\"http://static.libsyn.com/p/assets/a/9/3/6/a9361f61512c421c/podcast-logo.jpg\"\
+  \ />\n\t\t\t<description><![CDATA[<p>Doors - Part 1</p>]]></description>\n\t\t\t\
+  <enclosure length=\"27037279\" type=\"audio/mpeg\" url=\"http://traffic.libsyn.com/5stoneschurch/20170305_-_Doors_Part_1.mp3?dest-id=428582\"\
+  \ />\n\t\t\t<itunes:duration>28:10</itunes:duration>\n\t\t\t<itunes:explicit>clean</itunes:explicit>\n\
+  \t\t\t<itunes:keywords>franklin,5,pastor,church,christianity,sean,clarke,stones,messages,tn,sermons</itunes:keywords>\n\
+  \t\t\t<itunes:subtitle><![CDATA[Doors - Part 1]]></itunes:subtitle>\n\t\t\t\t\t\
+  </item>\n\t\t<item>\n\t\t\t<title>Love Strong - Part 4</title>\n\t\t\t<pubDate>Sun,\
+  \ 05 Mar 2017 20:14:29 +0000</pubDate>\n\t\t\t<guid isPermaLink=\"false\"><![CDATA[b57c44e14a432b4c89feb224814a2d7d]]></guid>\n\
+  \t\t\t<link><![CDATA[http://traffic.libsyn.com/5stoneschurch/20170226_-_Love_Strong_Part_4.mp3]]></link>\n\
+  \t\t\t<itunes:image href=\"http://static.libsyn.com/p/assets/a/9/3/6/a9361f61512c421c/podcast-logo.jpg\"\
+  \ />\n\t\t\t<description><![CDATA[<p>Love Strong - Part 4</p>]]></description>\n\
+  \t\t\t<enclosure length=\"31481022\" type=\"audio/mpeg\" url=\"http://traffic.libsyn.com/5stoneschurch/20170226_-_Love_Strong_Part_4.mp3?dest-id=428582\"\
+  \ />\n\t\t\t<itunes:duration>32:48</itunes:duration>\n\t\t\t<itunes:explicit>clean</itunes:explicit>\n\
+  \t\t\t<itunes:keywords>franklin,5,pastor,church,christianity,sean,clarke,stones,messages,tn,sermons</itunes:keywords>\n\
+  \t\t\t<itunes:subtitle><![CDATA[Love Strong - Part 4]]></itunes:subtitle>\n\t\t\t\
+  \t\t</item>\n\t\t<item>\n\t\t\t<title>Love Strong - Part 3</title>\n\t\t\t<pubDate>Sun,\
+  \ 19 Feb 2017 20:18:21 +0000</pubDate>\n\t\t\t<guid isPermaLink=\"false\"><![CDATA[8b270c6ef028a58a4eb850ee44f20b33]]></guid>\n\
+  \t\t\t<link><![CDATA[http://traffic.libsyn.com/5stoneschurch/20170219_-_Love_Strong_Part_3.mp3]]></link>\n\
+  \t\t\t<itunes:image href=\"http://static.libsyn.com/p/assets/a/9/3/6/a9361f61512c421c/podcast-logo.jpg\"\
+  \ />\n\t\t\t<description><![CDATA[<p>Love Strong - Part 3</p>]]></description>\n\
+  \t\t\t<enclosure length=\"37105081\" type=\"audio/mpeg\" url=\"http://traffic.libsyn.com/5stoneschurch/20170219_-_Love_Strong_Part_3.mp3?dest-id=428582\"\
+  \ />\n\t\t\t<itunes:duration>38:39</itunes:duration>\n\t\t\t<itunes:explicit>clean</itunes:explicit>\n\
+  \t\t\t<itunes:keywords>franklin,5,pastor,church,christianity,sean,clarke,stones,messages,tn,sermons</itunes:keywords>\n\
+  \t\t\t<itunes:subtitle><![CDATA[Love Strong - Part 3]]></itunes:subtitle>\n\t\t\t\
+  \t\t</item>\n\t\t<item>\n\t\t\t<title>Love Strong - Part 2</title>\n\t\t\t<pubDate>Sun,\
+  \ 12 Feb 2017 20:49:59 +0000</pubDate>\n\t\t\t<guid isPermaLink=\"false\"><![CDATA[2911d290ba692cd78927841a073c51b1]]></guid>\n\
+  \t\t\t<link><![CDATA[http://traffic.libsyn.com/5stoneschurch/20170212_-_Love_Strong_Part_2.mp3]]></link>\n\
+  \t\t\t<itunes:image href=\"http://static.libsyn.com/p/assets/a/9/3/6/a9361f61512c421c/podcast-logo.jpg\"\
+  \ />\n\t\t\t<description><![CDATA[<p>Love Strong - Part 2</p>]]></description>\n\
+  \t\t\t<enclosure length=\"27707686\" type=\"audio/mpeg\" url=\"http://traffic.libsyn.com/5stoneschurch/20170212_-_Love_Strong_Part_2.mp3?dest-id=428582\"\
+  \ />\n\t\t\t<itunes:duration>28:52</itunes:duration>\n\t\t\t<itunes:explicit>clean</itunes:explicit>\n\
+  \t\t\t<itunes:keywords>franklin,5,pastor,church,christianity,sean,clarke,stones,messages,tn,sermons</itunes:keywords>\n\
+  \t\t\t<itunes:subtitle><![CDATA[Love Strong - Part 2]]></itunes:subtitle>\n\t\t\t\
+  \t\t</item>\n\t\t<item>\n\t\t\t<title>Love Strong - Part 1</title>\n\t\t\t<pubDate>Wed,\
+  \ 08 Feb 2017 01:12:07 +0000</pubDate>\n\t\t\t<guid isPermaLink=\"false\"><![CDATA[def0473430217f47499f93d173633f01]]></guid>\n\
+  \t\t\t<link><![CDATA[http://traffic.libsyn.com/5stoneschurch/20170205_-_Love_Strong_Part_1.mp3]]></link>\n\
+  \t\t\t<itunes:image href=\"http://static.libsyn.com/p/assets/a/9/3/6/a9361f61512c421c/podcast-logo.jpg\"\
+  \ />\n\t\t\t<description><![CDATA[<p>Love Strong - Part 1</p>]]></description>\n\
+  \t\t\t<enclosure length=\"25881204\" type=\"audio/mpeg\" url=\"http://traffic.libsyn.com/5stoneschurch/20170205_-_Love_Strong_Part_1.mp3?dest-id=428582\"\
+  \ />\n\t\t\t<itunes:duration>26:58</itunes:duration>\n\t\t\t<itunes:explicit>clean</itunes:explicit>\n\
+  \t\t\t<itunes:keywords>franklin,5,pastor,church,christianity,sean,clarke,stones,messages,tn,sermons</itunes:keywords>\n\
+  \t\t\t<itunes:subtitle><![CDATA[Love Strong - Part 1]]></itunes:subtitle>\n\t\t\t\
+  \t\t</item>\n\t</channel>\n</rss>\n"
+cookies: !!python/object:requests.cookies.RequestsCookieJar
+  _cookies: {}
+  _now: 1489168297
+  _policy: !!python/object:cookielib.DefaultCookiePolicy
+    _allowed_domains: null
+    _blocked_domains: !!python/tuple []
+    _now: 1489168297
+    hide_cookie2: false
+    netscape: true
+    rfc2109_as_netscape: null
+    rfc2965: false
+    strict_domain: false
+    strict_ns_domain: 0
+    strict_ns_set_initial_dollar: false
+    strict_ns_set_path: false
+    strict_ns_unverifiable: false
+    strict_rfc2965_unverifiable: true
+elapsed: !!python/object/apply:datetime.timedelta [0, 0, 69210]
+encoding: utf-8
+headers: !!python/object:requests.structures.CaseInsensitiveDict
+  _store: !!python/object/apply:requests.packages.urllib3.packages.ordered_dict.OrderedDict
+  - - - server
+      - !!python/tuple [Server, Apache/2.2.15 (CentOS)]
+    - - vary
+      - !!python/tuple [Vary, Accept-Encoding]
+    - - content-encoding
+      - !!python/tuple [Content-Encoding, gzip]
+    - - access-control-allow-origin
+      - !!python/tuple [Access-Control-Allow-Origin, '*']
+    - - x-libsyn-host
+      - !!python/tuple [X-Libsyn-Host, (null)]
+    - - content-type
+      - !!python/tuple [Content-Type, application/rss+xml; charset=utf-8]
+    - - last-modified
+      - !!python/tuple [last-modified, 'Thu, 09 Mar 2017 03:24:19 GMT']
+    - - content-length
+      - !!python/tuple [Content-Length, '1509']
+    - - accept-ranges
+      - !!python/tuple [Accept-Ranges, bytes]
+    - - date
+      - !!python/tuple [Date, 'Fri, 10 Mar 2017 17:48:40 GMT']
+    - - x-varnish
+      - !!python/tuple [X-Varnish, 3256779971 3199326487]
+    - - age
+      - !!python/tuple [Age, '138436']
+    - - via
+      - !!python/tuple [Via, 1.1 varnish]
+    - - x-cache
+      - !!python/tuple [X-Cache, HIT]
+history: []
+reason: OK
+request: !!python/object:requests.models.PreparedRequest
+  _body_position: null
+  _cookies: !!python/object:requests.cookies.RequestsCookieJar
+    _cookies: {}
+    _now: 1489168297
+    _policy: !!python/object:cookielib.DefaultCookiePolicy
+      _allowed_domains: null
+      _blocked_domains: !!python/tuple []
+      _now: 1489168297
+      hide_cookie2: false
+      netscape: true
+      rfc2109_as_netscape: null
+      rfc2965: false
+      strict_domain: false
+      strict_ns_domain: 0
+      strict_ns_set_initial_dollar: false
+      strict_ns_set_path: false
+      strict_ns_unverifiable: false
+      strict_rfc2965_unverifiable: true
+  body: null
+  headers: !!python/object:requests.structures.CaseInsensitiveDict
+    _store: !!python/object/apply:requests.packages.urllib3.packages.ordered_dict.OrderedDict
+    - - - connection
+        - !!python/tuple [Connection, keep-alive]
+      - - accept-encoding
+        - !!python/tuple [Accept-Encoding, 'gzip, deflate']
+      - - accept
+        - !!python/tuple [Accept, '*/*']
+      - - user-agent
+        - !!python/tuple [User-Agent, python-requests/2.13.0]
+  hooks:
+    response: []
+  method: GET
+  url: http://5stoneschurch.libsyn.com/rss
+status_code: 200
+url: !!python/unicode 'http://5stoneschurch.libsyn.com/rss'

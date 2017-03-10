@@ -1,8 +1,27 @@
 import unittest
+import yaml
+import os
 
 from src.parser import *
 
-class LambdaHanderTest(unittest.TestCase):
+def response_fixture():
+    with open(os.path.join(os.path.dirname(__file__), "request_fixture.yml"), 'r') as f:
+        return yaml.load(f.read())
+
+
+class ResponseFixtureTest(unittest.TestCase):
+
+    def setUp(self):
+        self.fixture = response_fixture()
+
+    def tearDown(self):
+        del self.fixture
+
+    def test_response_type(self):
+        self.assertIsInstance(self.fixture, requests.models.Response)
+
+
+class LambdaHandlerTest(unittest.TestCase):
 
     def setUp(self):
         result = lambda_handler("", "")
@@ -46,6 +65,72 @@ class LambdaHanderTest(unittest.TestCase):
 
     def test_response_message_length_type(self):
         self.assertIsInstance(self.fixture["messages"][0]["length"], str)
+
+
+class MessageTest(unittest.TestCase):
+
+    def setUp(self):
+        self.fixture = Message("")
+
+    def tearDown(self):
+        del self.fixture
+
+    def test_response(self):
+        self.assertEquals(self.fixture.order, 1)
+        self.assertEquals(self.fixture.title, "Doors - Part 1")
+        self.assertEquals(self.fixture.published_date, "Sun, 05 Mar 2017 20:15:44 +0000")
+        self.assertEquals(self.fixture.date, "MAR 05, 2017")
+        self.assertEquals(self.fixture.file, "http://traffic.libsyn.com/5stoneschurch/20170305_-_Doors_Part_1.mp3")
+        self.assertEquals(self.fixture.length, "28:10")
+
+    def test_as_dict(self):
+        assertion = {
+            "order": self.fixture.order,
+            "title": self.fixture.title,
+            "published_date": self.fixture.published_date,
+            "date": self.fixture.date,
+            "file": self.fixture.file,
+            "length": self.fixture.length
+        }
+        self.assertEquals(self.fixture.as_dict(), assertion)
+
+
+class MetaTest(unittest.TestCase):
+
+    def setUp(self):
+        self.fixture = Meta("")
+
+    def tearDown(self):
+        del self.fixture
+
+    def test_response(self):
+        self.assertEquals(self.fixture.title, "5 Stones Church  - Weekend Messages")
+        self.assertEquals(self.fixture.url, "http://www.5stoneschurch.com")
+        self.assertEquals(self.fixture.email, "media@5stoneschurch.com")
+        self.assertEquals(self.fixture.description, "A life-giving church in Franklin, TN. Follow Jesus - Experience Freedom - Discover Purpose - Make a Difference. 10 AM - Freedom Intermediate School")
+
+
+class ParseMessagesTest(unittest.TestCase):
+
+    def setUp(self):
+        result = parse_messages("")
+        self.fixture = result
+
+    def tearDown(self):
+        del self.fixture
+
+    def test_response(self):
+        expectation = {
+            "order": 1,
+            "title": "Doors - Part 1",
+            "published_date": "Sun, 05 Mar 2017 20:15:44 +0000",
+            "date": "MAR 05, 2017",
+            "file": "http://traffic.libsyn.com/5stoneschurch/20170305_-_Doors_Part_1.mp3",
+            "length": "28:10"
+        }
+        self.assertEquals(self.fixture[0], expectation)
+        self.assertIsInstance(self.fixture, list)
+
 
 if __name__ == '__main__':
     unittest.main()
