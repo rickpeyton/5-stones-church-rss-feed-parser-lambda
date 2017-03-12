@@ -1,6 +1,8 @@
 from __future__ import print_function
 
 import requests
+import re
+from datetime import datetime
 from bs4 import BeautifulSoup
 
 
@@ -13,7 +15,6 @@ def lambda_handler(event, context):
     json_response = {
         "title": meta.title,
         "url": meta.url,
-        "email": meta.email,
         "description": meta.description,
         "messages": messages
     }
@@ -23,8 +24,11 @@ def lambda_handler(event, context):
 
 def parse_messages(response):
     messages = []
-    message = Message(response).as_dict()
-    messages.append(message)
+    counter = 1
+    for i in response.findAll("item"):
+        message = Message(i, counter).as_dict()
+        counter = counter + 1
+        messages.append(message)
 
     return messages
 
@@ -32,21 +36,19 @@ def parse_messages(response):
 class Meta(object):
 
     def __init__(self, response):
-        self.title = "5 Stones Church  - Weekend Messages"
-        self.url = "http://www.5stoneschurch.com"
-        self.email = "media@5stoneschurch.com"
-        self.description = "A life-giving church in Franklin, TN. Follow Jesus - Experience Freedom - Discover Purpose - Make a Difference. 10 AM - Freedom Intermediate School"
+        self.title = response.rss.channel.title.renderContents()
+        self.url = response.findAll("link")[2].renderContents()
+        self.description = response.rss.channel.description.renderContents()
 
 
 class Message(object):
 
-    def __init__(self, response):
-        self.order = 1
-        self.title = "Doors - Part 1"
-        self.published_date = "Sun, 05 Mar 2017 20:15:44 +0000"
-        self.date = "MAR 05, 2017"
-        self.file = "http://traffic.libsyn.com/5stoneschurch/20170305_-_Doors_Part_1.mp3"
-        self.length = "28:10"
+    def __init__(self, response, counter):
+        self.order = counter
+        self.title = response.title.renderContents()
+        self.published_date = response.pubDate.renderContents()
+        self.file = response.link.renderContents()
+        self.date = UrlToDate(self.file).date()
 
     def as_dict(self):
         return {
@@ -55,8 +57,18 @@ class Message(object):
             "published_date": self.published_date,
             "date": self.date,
             "file": self.file,
-            "length": self.length
         }
+
+
+class UrlToDate(object):
+
+    def __init__(self, url):
+        self.url = url
+
+    def date(self):
+        date_string = re.search('(?=\/(\d{8}))', self.url).group(1)
+        date_object = datetime.strptime(date_string, '%Y%m%d')
+        return date_object.strftime('%b %d, %Y')
 
 
 def send_request():
