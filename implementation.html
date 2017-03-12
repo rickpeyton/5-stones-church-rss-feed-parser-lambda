@@ -1,0 +1,50 @@
+<div id="podcasts">Loading podcasts...</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>
+  jQuery.ajax({
+    url: "https://vlqgb4kysk.execute-api.us-east-1.amazonaws.com/prod",
+    type: "GET"
+  })
+  .done(function(data, textStatus, jqXHR) {
+    $('#podcasts').empty();
+    $.each(data.messages, function( index, value ) {
+      str = '<div>' +
+        '  <div class="wsite-multicol">' +
+        '    <div class="wsite-multicol-table-wrap" style="margin:0 -15px;">' +
+        '      <table class="wsite-multicol-table">' +
+        '        <tbody class="wsite-multicol-tbody">' +
+        '          <tr class="wsite-multicol-tr">' +
+        '            <td class="wsite-multicol-col" style="width:35.0%; padding:0 15px;">' +
+        '              <div class="paragraph"><a href="' + value.file + '" target="_blank"><font color="#3f3f3f"><font size="3">' + value.title + '</font></font></a></div>' +
+        '            </td>' +
+        '            <td class="wsite-multicol-col" style="width:20.0%; padding:0 15px;">' +
+        '              <div style="text-align:left;">' +
+        '                <div style="height: 0px; overflow: hidden;"></div>' +
+        '                <a class="wsite-button wsite-button-small wsite-button-highlight" href="' + value.file + '" target="_blank" style="display: flex">' +
+        '                  <span class="wsite-button-inner" style="margin: auto !important">' + value.date + '</span>' +
+        '                </a>' +
+        '                <div style="height: 0px; overflow: hidden;"></div></div>' +
+        '            </td>' +
+        '            <td class="wsite-multicol-col" style="width:20.0%; padding:0 15px;">' +
+        '              <div style="text-align:left;"><div style="height: 0px; overflow: hidden;"></div>' +
+        '                <a class="wsite-button wsite-button-small wsite-button-normal" href="' + value.file + '" target="_blank" style="display: flex">' +
+        '                  <span class="wsite-button-inner" style="margin: auto !important">Download Message</span>' +
+        '                </a>' +
+        '                <div style="height: 10px; overflow: hidden;"></div></div>' +
+        '            </td>' +
+        '            <td style="width:25.0%"></td>' +
+        '          </tr>' +
+        '        </tbody>' +
+        '      </table>' +
+        '    </div>' +
+        '  </div>' +
+        '</div>';
+      $('#podcasts').append(str);
+    });
+  })
+  .fail(function(jqXHR, textStatus, errorThrown) {
+    $('#podcasts.inner').replaceWith('Error Loading Podcasts');
+    console.log(errorThrown);
+    console.log(textStatus);
+  });
+</script>
