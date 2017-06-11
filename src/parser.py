@@ -5,9 +5,17 @@ import re
 from datetime import datetime
 from bs4 import BeautifulSoup
 
+import os
+import yaml
+
 
 def lambda_handler(event, context):
     response = send_request()
+
+    if True == False:
+        with open(os.path.join(os.path.dirname(__file__), ".", "request_fixture_20170611.yml"), 'w') as f:
+            f.write(response)
+
     parsed_xml = BeautifulSoup(response.text, 'lxml-xml')
     meta = Meta(parsed_xml)
     messages = parse_messages(parsed_xml)

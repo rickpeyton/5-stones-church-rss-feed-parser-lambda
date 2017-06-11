@@ -1,8 +1,12 @@
 # pip requirements file, list all items as they are installed with the "--no-dependencies" flag
 
 requests
+chardet>=3.0.2,<3.1.0
+certifi
+idna
 beautifulsoup4
 bs4
 lxml
+urllib3
 pyyaml
 pytest

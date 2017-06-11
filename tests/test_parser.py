@@ -5,7 +5,7 @@ import os
 from src.parser import *
 
 def response_fixture():
-    with open(os.path.join(os.path.dirname(__file__), "request_fixture.yml"), 'r') as f:
+    with open(os.path.join(os.path.dirname(__file__), "request_fixture_20170611.yml"), 'r') as f:
         return yaml.load(f.read())
 
 
@@ -79,10 +79,10 @@ class MessageTest(unittest.TestCase):
 
     def test_response(self):
         self.assertEquals(self.fixture.order, 1)
-        self.assertEquals(self.fixture.title, "Doors - Part 1")
-        self.assertEquals(self.fixture.published_date, "Sun, 05 Mar 2017 20:15:44 +0000")
-        self.assertEquals(self.fixture.date, "Mar 05, 2017")
-        self.assertEquals(self.fixture.file, "http://traffic.libsyn.com/5stoneschurch/20170305_-_Doors_Part_1.mp3")
+        self.assertEquals(self.fixture.title, "More Than Words - Part 3")
+        self.assertEquals(self.fixture.published_date, "Sun, 11 Jun 2017 18:57:01 +0000")
+        self.assertEquals(self.fixture.date, "Jun 11, 2017")
+        self.assertEquals(self.fixture.file, "http://traffic.libsyn.com/5stoneschurch/20170611_-_More_Than_Words_-_Part_3.mp3")
 
     def test_as_dict(self):
         assertion = {
@@ -134,10 +134,10 @@ class ParseMessagesTest(unittest.TestCase):
     def test_response(self):
         expectation = {
             "order": 1,
-            "title": "Doors - Part 1",
-            "published_date": "Sun, 05 Mar 2017 20:15:44 +0000",
-            "date": "Mar 05, 2017",
-            "file": "http://traffic.libsyn.com/5stoneschurch/20170305_-_Doors_Part_1.mp3"
+            "title": "More Than Words - Part 3",
+            "published_date": "Sun, 11 Jun 2017 18:57:01 +0000",
+            "date": "Jun 11, 2017",
+            "file": "http://traffic.libsyn.com/5stoneschurch/20170611_-_More_Than_Words_-_Part_3.mp3"
         }
         self.assertEquals(self.fixture[0], expectation)
         self.assertIsInstance(self.fixture, list)
