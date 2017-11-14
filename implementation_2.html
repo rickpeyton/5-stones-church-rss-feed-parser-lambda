@@ -1,0 +1,25 @@
+<div id="podcasts">Loading podcasts...</div>
+<script>
+  jQuery.ajax({
+    url: "https://vlqgb4kysk.execute-api.us-east-1.amazonaws.com/prod",
+    type: "GET"
+  })
+  .done(function(data, textStatus, jqXHR) {
+    $('#podcasts').empty();
+    $.each(data.messages, function( index, value ) {
+      str = '<div class="podcast">' +
+      '<div class="podcastImage"><a href="' + value.file + '"><img src="' + value.image + '"></a></div>' +
+      '<div class="podcastTitle"><a href="' + value.file + '">' + value.title + '</a></div>' +
+      '<div class="podcastDate"><a href="' + value.file + '">' + value.date + '</a></div>' +
+      '<div class="podcastListen"><a href="' + value.file + '"> > Listen</a></div>' +
+      '</div>';
+      $('#podcasts').append(str);
+      return;
+    });
+  })
+  .fail(function(jqXHR, textStatus, errorThrown) {
+    $('#podcasts.inner').replaceWith('Error Loading Podcasts');
+    console.log(errorThrown);
+    console.log(textStatus);
+  });
+</script>
