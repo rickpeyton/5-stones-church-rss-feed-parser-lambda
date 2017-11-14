@@ -93,8 +93,8 @@ class MessageTest(unittest.TestCase):
         self.assertEquals(self.fixture.title, "Philippians - Part 4")
         self.assertEquals(self.fixture.published_date, "Sun, 12 Nov 2017 18:39:03 +0000")
         self.assertEquals(self.fixture.date, "Nov 12, 2017")
-        self.assertEquals(self.fixture.file, "http://traffic.libsyn.com/5stoneschurch/20171112_-_Philippians_-_Part_4.mp3")
-        self.assertEquals(self.fixture.image, "http://static.libsyn.com/p/assets/5/3/1/1/5311ea82ffe57b25/philippians-1x1.jpg")
+        self.assertEquals(self.fixture.file, "//traffic.libsyn.com/5stoneschurch/20171112_-_Philippians_-_Part_4.mp3")
+        self.assertEquals(self.fixture.image, "//static.libsyn.com/p/assets/5/3/1/1/5311ea82ffe57b25/philippians-1x1.jpg")
 
     def test_as_dict(self):
         assertion = {
@@ -110,7 +110,7 @@ class MessageTest(unittest.TestCase):
 
 class UrlToDateTest(unittest.TestCase):
     def setUp(self):
-        url = "http://traffic.libsyn.com/5stoneschurch/20170305_-_Doors_Part_1.mp3"
+        url = "//traffic.libsyn.com/5stoneschurch/20170305_-_Doors_Part_1.mp3"
         self.fixture = UrlToDate(url).date()
 
     def tearDown(self):
@@ -150,8 +150,8 @@ class ParseMessagesTest(unittest.TestCase):
             "title": "Philippians - Part 4",
             "published_date": "Sun, 12 Nov 2017 18:39:03 +0000",
             "date": "Nov 12, 2017",
-            "file": "http://traffic.libsyn.com/5stoneschurch/20171112_-_Philippians_-_Part_4.mp3",
-            "image": "http://static.libsyn.com/p/assets/5/3/1/1/5311ea82ffe57b25/philippians-1x1.jpg"
+            "file": "//traffic.libsyn.com/5stoneschurch/20171112_-_Philippians_-_Part_4.mp3",
+            "image": "//static.libsyn.com/p/assets/5/3/1/1/5311ea82ffe57b25/philippians-1x1.jpg"
         }
         self.assertEquals(self.fixture[0], expectation)
         self.assertIsInstance(self.fixture, list)

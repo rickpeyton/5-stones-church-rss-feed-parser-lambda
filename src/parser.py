@@ -57,9 +57,9 @@ class Message(object):
         self.order = counter
         self.title = response.title.renderContents()
         self.published_date = response.pubDate.renderContents()
-        self.file = response.link.renderContents()
+        self.file = response.link.renderContents()[5:]
         self.date = UrlToDate(self.file).date()
-        self.image = response.find('itunes:image')['href'].encode('ascii')
+        self.image = response.find('itunes:image')['href'].encode('ascii')[5:]
 
     def as_dict(self):
         return {
