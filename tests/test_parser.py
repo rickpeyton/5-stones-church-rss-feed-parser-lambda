@@ -5,7 +5,7 @@ import os
 from src.parser import *
 
 def response_fixture():
-    with open(os.path.join(os.path.dirname(__file__), "request_fixture_20170611.yml"), 'r') as f:
+    with open(os.path.join(os.path.dirname(__file__), "request_fixture_20171113.yml"), 'r') as f:
         return yaml.load(f.read())
 
 
@@ -13,6 +13,15 @@ def parsed_fixture():
     response = response_fixture()
     response = BeautifulSoup(response.text, 'lxml-xml')
     return response
+
+class FullRun(unittest.TestCase):
+
+    def setUp(self):
+        if True == False:
+            lambda_handler("", "")
+
+    def test_response_type(self):
+        self.assertEquals(1, 1)
 
 
 class ResponseFixtureTest(unittest.TestCase):
@@ -66,6 +75,8 @@ class LambdaHandlerTest(unittest.TestCase):
     def test_response_message_file_type(self):
         self.assertIsInstance(self.fixture["messages"][0]["file"], str)
 
+    def test_response_message_file_type(self):
+        self.assertIsInstance(self.fixture["messages"][0]["image"], str)
 
 class MessageTest(unittest.TestCase):
 
@@ -79,10 +90,11 @@ class MessageTest(unittest.TestCase):
 
     def test_response(self):
         self.assertEquals(self.fixture.order, 1)
-        self.assertEquals(self.fixture.title, "More Than Words - Part 3")
-        self.assertEquals(self.fixture.published_date, "Sun, 11 Jun 2017 18:57:01 +0000")
-        self.assertEquals(self.fixture.date, "Jun 11, 2017")
-        self.assertEquals(self.fixture.file, "http://traffic.libsyn.com/5stoneschurch/20170611_-_More_Than_Words_-_Part_3.mp3")
+        self.assertEquals(self.fixture.title, "Philippians - Part 4")
+        self.assertEquals(self.fixture.published_date, "Sun, 12 Nov 2017 18:39:03 +0000")
+        self.assertEquals(self.fixture.date, "Nov 12, 2017")
+        self.assertEquals(self.fixture.file, "http://traffic.libsyn.com/5stoneschurch/20171112_-_Philippians_-_Part_4.mp3")
+        self.assertEquals(self.fixture.image, "http://static.libsyn.com/p/assets/5/3/1/1/5311ea82ffe57b25/philippians-1x1.jpg")
 
     def test_as_dict(self):
         assertion = {
@@ -90,7 +102,8 @@ class MessageTest(unittest.TestCase):
             "title": self.fixture.title,
             "published_date": self.fixture.published_date,
             "date": self.fixture.date,
-            "file": self.fixture.file
+            "file": self.fixture.file,
+            "image": self.fixture.image
         }
         self.assertEquals(self.fixture.as_dict(), assertion)
 
@@ -134,14 +147,27 @@ class ParseMessagesTest(unittest.TestCase):
     def test_response(self):
         expectation = {
             "order": 1,
-            "title": "More Than Words - Part 3",
-            "published_date": "Sun, 11 Jun 2017 18:57:01 +0000",
-            "date": "Jun 11, 2017",
-            "file": "http://traffic.libsyn.com/5stoneschurch/20170611_-_More_Than_Words_-_Part_3.mp3"
+            "title": "Philippians - Part 4",
+            "published_date": "Sun, 12 Nov 2017 18:39:03 +0000",
+            "date": "Nov 12, 2017",
+            "file": "http://traffic.libsyn.com/5stoneschurch/20171112_-_Philippians_-_Part_4.mp3",
+            "image": "http://static.libsyn.com/p/assets/5/3/1/1/5311ea82ffe57b25/philippians-1x1.jpg"
         }
         self.assertEquals(self.fixture[0], expectation)
         self.assertIsInstance(self.fixture, list)
 
+class LastMessageTest(unittest.TestCase):
+
+    def setUp(self):
+        result = parse_messages(parsed_fixture())
+        self.fixture = result
+
+    def tearDown(self):
+        del self.fixture
+
+    def test_response(self):
+        self.assertNotEquals(self.fixture[-1]["title"], "Love Strong - Part 1")
+        self.assertEquals(self.fixture[-1]["title"], "The Voice - Part 1")
 
 if __name__ == '__main__':
     unittest.main()

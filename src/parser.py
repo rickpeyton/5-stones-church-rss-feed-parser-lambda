@@ -13,8 +13,8 @@ def lambda_handler(event, context):
     response = send_request()
 
     if True == False:
-        with open(os.path.join(os.path.dirname(__file__), ".", "request_fixture_20170611.yml"), 'w') as f:
-            f.write(response)
+        with open(os.path.join(os.path.dirname(__file__), ".", "request_fixture_20171113.yml"), 'w') as f:
+            f.write(yaml.dump(response))
 
     parsed_xml = BeautifulSoup(response.text, 'lxml-xml')
     meta = Meta(parsed_xml)
@@ -36,7 +36,9 @@ def parse_messages(response):
     for i in response.findAll("item"):
         message = Message(i, counter).as_dict()
         counter = counter + 1
-        messages.append(message)
+        message_date = datetime.strptime(message["date"], '%b %d, %Y')
+        if message_date > datetime(2017, 06, 25):
+            messages.append(message)
 
     return messages
 
@@ -57,6 +59,7 @@ class Message(object):
         self.published_date = response.pubDate.renderContents()
         self.file = response.link.renderContents()
         self.date = UrlToDate(self.file).date()
+        self.image = response.find('itunes:image')['href'].encode('ascii')
 
     def as_dict(self):
         return {
@@ -65,6 +68,7 @@ class Message(object):
             "published_date": self.published_date,
             "date": self.date,
             "file": self.file,
+            "image": self.image,
         }
 
 

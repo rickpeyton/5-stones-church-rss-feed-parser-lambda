@@ -1,0 +1,518 @@
+!!python/object:requests.models.Response
+_content: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<rss version=\"2.0\" xmlns:atom=\"\
+  http://www.w3.org/2005/Atom\" xmlns:cc=\"http://web.resource.org/cc/\" xmlns:itunes=\"\
+  http://www.itunes.com/dtds/podcast-1.0.dtd\" xmlns:media=\"http://search.yahoo.com/mrss/\"\
+  \ xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"\
+  >\n\t<channel>\n\t\t<atom:link href=\"http://5stoneschurch.libsyn.com/rss\" rel=\"\
+  self\" type=\"application/rss+xml\"/>\n\t\t<title>5 Stones Church  - Weekend Messages</title>\n\
+  \t\t<pubDate>Sun, 12 Nov 2017 18:39:03 +0000</pubDate>\n\t\t<lastBuildDate>Sun,\
+  \ 12 Nov 2017 18:41:54 +0000</lastBuildDate>\n\t\t<generator>Libsyn WebEngine 2.0</generator>\n\
+  \t\t<link>http://www.5stoneschurch.com</link>\n\t\t<language>en</language>\n\t\t\
+  <copyright><![CDATA[]]></copyright>\n\t\t<docs>http://www.5stoneschurch.com</docs>\n\
+  \t\t<managingEditor>media@5stoneschurch.com (media@5stoneschurch.com)</managingEditor>\n\
+  \t\t<itunes:summary><![CDATA[5 Stones Church exists to help people; Follow Jesus,\
+  \ Discover Purpose, Experience Freedom, Make a Difference. 5 Stones Church is a\
+  \ life-giving church in Franklin, Tennessee.]]></itunes:summary>\n\t\t<image>\n\t\
+  \t\t<url>http://static.libsyn.com/p/assets/a/9/3/6/a9361f61512c421c/podcast-logo.jpg</url>\n\
+  \t\t\t<title>5 Stones Church  - Weekend Messages</title>\n\t\t\t<link><![CDATA[http://www.5stoneschurch.com]]></link>\n\
+  \t\t</image>\n\t\t<itunes:author>Pastor Sean Clarke</itunes:author>\n\t\t<itunes:keywords>5stoneschurch,christianity,franklintn,messages,pastorseanclarke,sermons</itunes:keywords>\n\
+  \t\t<itunes:category text=\"Religion &amp; Spirituality\">\n\t\t\t<itunes:category\
+  \ text=\"Christianity\"/>\n\t\t</itunes:category>\n\t\t<itunes:image href=\"http://static.libsyn.com/p/assets/a/9/3/6/a9361f61512c421c/podcast-logo.jpg\"\
+  \ />\n\t\t<itunes:explicit>clean</itunes:explicit>\n\t\t<itunes:owner>\n\t\t\t<itunes:name><![CDATA[Rick\
+  \ Peyton]]></itunes:name>\n\t\t\t<itunes:email>media@5stoneschurch.com</itunes:email>\n\
+  \t\t</itunes:owner>\n\t\t<description><![CDATA[A life-giving church in Franklin,\
+  \ TN. Follow Jesus - Experience Freedom - Discover Purpose - Make a Difference.\
+  \ 10 AM - Freedom Intermediate School]]></description>\n\t\t<itunes:subtitle><![CDATA[5\
+  \ Stones Church - Weekend Messages]]></itunes:subtitle>\n\t\t<itunes:type>episodic</itunes:type>\n\
+  \t\t\t\t<item>\n\t\t\t<title>Philippians - Part 4</title>\n\t\t\t<pubDate>Sun, 12\
+  \ Nov 2017 18:39:03 +0000</pubDate>\n\t\t\t<guid isPermaLink=\"false\"><![CDATA[444a9b8b050c5c523645e06db0398d38]]></guid>\n\
+  \t\t\t<link><![CDATA[http://traffic.libsyn.com/5stoneschurch/20171112_-_Philippians_-_Part_4.mp3]]></link>\n\
+  \t\t\t<itunes:image href=\"http://static.libsyn.com/p/assets/5/3/1/1/5311ea82ffe57b25/philippians-1x1.jpg\"\
+  \ />\n\t\t\t<description><![CDATA[<p>Philippians - Part 4</p>]]></description>\n\
+  \t\t\t<content:encoded><![CDATA[<p>Philippians - Part 4</p>]]></content:encoded>\n\
+  \t\t\t<enclosure length=\"23983505\" type=\"audio/mpeg\" url=\"http://traffic.libsyn.com/5stoneschurch/20171112_-_Philippians_-_Part_4.mp3?dest-id=428582\"\
+  \ />\n\t\t\t<itunes:duration>24:57</itunes:duration>\n\t\t\t<itunes:explicit>clean</itunes:explicit>\n\
+  \t\t\t<itunes:keywords>franklin,free,5,fear,pastor,not,church,christianity,sean,clarke,stones,messages,sermons</itunes:keywords>\n\
+  \t\t\t<itunes:subtitle><![CDATA[Philippians - Part 4]]></itunes:subtitle>\n\t\t\t\
+  <itunes:episodeType>full</itunes:episodeType>\n\t\t\t\t\t</item>\n\t\t<item>\n\t\
+  \t\t<title>Philippians - Part 3</title>\n\t\t\t<pubDate>Sun, 05 Nov 2017 18:16:36\
+  \ +0000</pubDate>\n\t\t\t<guid isPermaLink=\"false\"><![CDATA[5186b488516594b8fa9e4cea60617fa0]]></guid>\n\
+  \t\t\t<link><![CDATA[http://traffic.libsyn.com/5stoneschurch/20171105_-_Philippians_-_Part_3.mp3]]></link>\n\
+  \t\t\t<itunes:image href=\"http://static.libsyn.com/p/assets/4/c/9/7/4c970437276649cc/philippians-1x1.jpg\"\
+  \ />\n\t\t\t<description><![CDATA[<p>Philippians - Part 3</p>]]></description>\n\
+  \t\t\t<content:encoded><![CDATA[<p>Philippians - Part 3</p>]]></content:encoded>\n\
+  \t\t\t<enclosure length=\"27154979\" type=\"audio/mpeg\" url=\"http://traffic.libsyn.com/5stoneschurch/20171105_-_Philippians_-_Part_3.mp3?dest-id=428582\"\
+  \ />\n\t\t\t<itunes:duration>28:15</itunes:duration>\n\t\t\t<itunes:explicit>clean</itunes:explicit>\n\
+  \t\t\t<itunes:keywords>franklin,free,5,fear,pastor,not,church,christianity,sean,clarke,stones,messages,sermons</itunes:keywords>\n\
+  \t\t\t<itunes:subtitle><![CDATA[Philippians - Part 3]]></itunes:subtitle>\n\t\t\t\
+  <itunes:episodeType>full</itunes:episodeType>\n\t\t\t\t\t</item>\n\t\t<item>\n\t\
+  \t\t<title>Philippians - Part 2</title>\n\t\t\t<pubDate>Sun, 29 Oct 2017 18:00:16\
+  \ +0000</pubDate>\n\t\t\t<guid isPermaLink=\"false\"><![CDATA[f2ccc47a5df3215f5d5e3eb22a27f5ff]]></guid>\n\
+  \t\t\t<link><![CDATA[http://traffic.libsyn.com/5stoneschurch/20171029_-_Philippians_-_Part_2.mp3]]></link>\n\
+  \t\t\t<itunes:image href=\"http://static.libsyn.com/p/assets/2/6/e/b/26eb1c29431c42dc/philippians-1x1.jpg\"\
+  \ />\n\t\t\t<description><![CDATA[<p>Philippians - Part 2</p>]]></description>\n\
+  \t\t\t<content:encoded><![CDATA[<p>Philippians - Part 2</p>]]></content:encoded>\n\
+  \t\t\t<enclosure length=\"21392158\" type=\"audio/mpeg\" url=\"http://traffic.libsyn.com/5stoneschurch/20171029_-_Philippians_-_Part_2.mp3?dest-id=428582\"\
+  \ />\n\t\t\t<itunes:duration>22:15</itunes:duration>\n\t\t\t<itunes:explicit>clean</itunes:explicit>\n\
+  \t\t\t<itunes:keywords>franklin,free,5,fear,pastor,not,church,christianity,sean,clarke,stones,messages,sermons</itunes:keywords>\n\
+  \t\t\t<itunes:subtitle><![CDATA[Philippians - Part 2]]></itunes:subtitle>\n\t\t\t\
+  <itunes:episodeType>full</itunes:episodeType>\n\t\t\t\t\t</item>\n\t\t<item>\n\t\
+  \t\t<title>Philippians - Part 1</title>\n\t\t\t<pubDate>Sun, 22 Oct 2017 21:49:56\
+  \ +0000</pubDate>\n\t\t\t<guid isPermaLink=\"false\"><![CDATA[0f9d2f08aded84efd8591d1255c21239]]></guid>\n\
+  \t\t\t<link><![CDATA[http://traffic.libsyn.com/5stoneschurch/20171022_-_Philippians_-_Part_1.mp3]]></link>\n\
+  \t\t\t<itunes:image href=\"http://static.libsyn.com/p/assets/b/e/2/9/be29b4c0b862af49/philippians-1x1.jpg\"\
+  \ />\n\t\t\t<description><![CDATA[<p>Philippians - Part 1</p>]]></description>\n\
+  \t\t\t<content:encoded><![CDATA[<p>Philippians - Part 1</p>]]></content:encoded>\n\
+  \t\t\t<enclosure length=\"24156540\" type=\"audio/mpeg\" url=\"http://traffic.libsyn.com/5stoneschurch/20171022_-_Philippians_-_Part_1.mp3?dest-id=428582\"\
+  \ />\n\t\t\t<itunes:duration>25:08</itunes:duration>\n\t\t\t<itunes:explicit>clean</itunes:explicit>\n\
+  \t\t\t<itunes:keywords>franklin,free,5,fear,pastor,not,church,christianity,sean,clarke,stones,messages,sermons</itunes:keywords>\n\
+  \t\t\t<itunes:subtitle><![CDATA[Philippians - Part 1]]></itunes:subtitle>\n\t\t\t\
+  <itunes:episodeType>full</itunes:episodeType>\n\t\t\t\t\t</item>\n\t\t<item>\n\t\
+  \t\t<title>Fear Not - Part 2</title>\n\t\t\t<pubDate>Sun, 15 Oct 2017 20:55:47 +0000</pubDate>\n\
+  \t\t\t<guid isPermaLink=\"false\"><![CDATA[3d8d57027eef27f245ff78030a9cb1e0]]></guid>\n\
+  \t\t\t<link><![CDATA[http://traffic.libsyn.com/5stoneschurch/20171015_-_Fear_Not_-_Part_2.mp3]]></link>\n\
+  \t\t\t<itunes:image href=\"http://static.libsyn.com/p/assets/d/e/4/6/de465975c99b4453/fear-not-1x1.jpg\"\
+  \ />\n\t\t\t<description><![CDATA[<p>Fear Not - Part 2</p>]]></description>\n\t\t\
+  \t<content:encoded><![CDATA[<p>Fear Not - Part 2</p>]]></content:encoded>\n\t\t\t\
+  <enclosure length=\"25647714\" type=\"audio/mpeg\" url=\"http://traffic.libsyn.com/5stoneschurch/20171015_-_Fear_Not_-_Part_2.mp3?dest-id=428582\"\
+  \ />\n\t\t\t<itunes:duration>26:43</itunes:duration>\n\t\t\t<itunes:explicit>clean</itunes:explicit>\n\
+  \t\t\t<itunes:keywords>franklin,free,5,fear,pastor,not,church,christianity,sean,clarke,stones,messages,sermons</itunes:keywords>\n\
+  \t\t\t<itunes:subtitle><![CDATA[Fear Not - Part 2]]></itunes:subtitle>\n\t\t\t<itunes:episodeType>full</itunes:episodeType>\n\
+  \t\t\t\t\t</item>\n\t\t<item>\n\t\t\t<title>Fear Not - Part 1</title>\n\t\t\t<pubDate>Sun,\
+  \ 08 Oct 2017 17:53:22 +0000</pubDate>\n\t\t\t<guid isPermaLink=\"false\"><![CDATA[e5c7ed858aebb1d03afe624dc7f5becc]]></guid>\n\
+  \t\t\t<link><![CDATA[http://traffic.libsyn.com/5stoneschurch/20171008_-_Fear_Not_-_Part_1.mp3]]></link>\n\
+  \t\t\t<itunes:image href=\"http://static.libsyn.com/p/assets/b/e/c/6/bec621f47c1c157b/fear-not-1x1.jpg\"\
+  \ />\n\t\t\t<description><![CDATA[<p>Fear Not - Part 1</p>]]></description>\n\t\t\
+  \t<content:encoded><![CDATA[<p>Fear Not - Part 1</p>]]></content:encoded>\n\t\t\t\
+  <enclosure length=\"24291018\" type=\"audio/mpeg\" url=\"http://traffic.libsyn.com/5stoneschurch/20171008_-_Fear_Not_-_Part_1.mp3?dest-id=428582\"\
+  \ />\n\t\t\t<itunes:duration>25:18</itunes:duration>\n\t\t\t<itunes:explicit>clean</itunes:explicit>\n\
+  \t\t\t<itunes:keywords>franklin,free,5,fear,pastor,not,church,christianity,sean,clarke,stones,messages,sermons</itunes:keywords>\n\
+  \t\t\t<itunes:subtitle><![CDATA[Fear Not - Part 1]]></itunes:subtitle>\n\t\t\t<itunes:episodeType>full</itunes:episodeType>\n\
+  \t\t\t\t\t</item>\n\t\t<item>\n\t\t\t<title>Game Changer - Part 4</title>\n\t\t\t\
+  <pubDate>Sun, 01 Oct 2017 20:13:15 +0000</pubDate>\n\t\t\t<guid isPermaLink=\"false\"\
+  ><![CDATA[2bcf442573b04e15d2e7cfa7952f4a2e]]></guid>\n\t\t\t<link><![CDATA[http://traffic.libsyn.com/5stoneschurch/20171001_-_Game_Changer_-_Part_4.mp3]]></link>\n\
+  \t\t\t<itunes:image href=\"http://static.libsyn.com/p/assets/a/9/0/d/a90d4f5924399ba4/game-changer-1x1.jpg\"\
+  \ />\n\t\t\t<description><![CDATA[<p>Game Changer - Part 4</p>]]></description>\n\
+  \t\t\t<content:encoded><![CDATA[<p>Game Changer - Part 4</p>]]></content:encoded>\n\
+  \t\t\t<enclosure length=\"23126856\" type=\"audio/mpeg\" url=\"http://traffic.libsyn.com/5stoneschurch/20171001_-_Game_Changer_-_Part_4.mp3?dest-id=428582\"\
+  \ />\n\t\t\t<itunes:duration>23:58</itunes:duration>\n\t\t\t<itunes:explicit>clean</itunes:explicit>\n\
+  \t\t\t<itunes:keywords>the,franklin,free,5,game,pastor,church,christianity,sean,clarke,stones,changer,messages,sermons</itunes:keywords>\n\
+  \t\t\t<itunes:subtitle><![CDATA[Game Changer - Part 4]]></itunes:subtitle>\n\t\t\
+  \t<itunes:episodeType>full</itunes:episodeType>\n\t\t\t\t\t</item>\n\t\t<item>\n\
+  \t\t\t<title>Game Changer - Part 3</title>\n\t\t\t<pubDate>Sun, 24 Sep 2017 18:03:06\
+  \ +0000</pubDate>\n\t\t\t<guid isPermaLink=\"false\"><![CDATA[886911a83e9bb8617cc732506822408b]]></guid>\n\
+  \t\t\t<link><![CDATA[http://traffic.libsyn.com/5stoneschurch/20170924_-_Game_Changer_-_Part_3.mp3]]></link>\n\
+  \t\t\t<itunes:image href=\"http://static.libsyn.com/p/assets/d/a/7/f/da7ff12796d6be08/game-changer-1x1.jpg\"\
+  \ />\n\t\t\t<description><![CDATA[<p>Game Changer - Part 3</p>]]></description>\n\
+  \t\t\t<content:encoded><![CDATA[<p>Game Changer - Part 3</p>]]></content:encoded>\n\
+  \t\t\t<enclosure length=\"24143333\" type=\"audio/mpeg\" url=\"http://traffic.libsyn.com/5stoneschurch/20170924_-_Game_Changer_-_Part_3.mp3?dest-id=428582\"\
+  \ />\n\t\t\t<itunes:duration>25:01</itunes:duration>\n\t\t\t<itunes:explicit>clean</itunes:explicit>\n\
+  \t\t\t<itunes:keywords>the,franklin,free,5,game,pastor,church,christianity,sean,clarke,stones,changer,messages,sermons</itunes:keywords>\n\
+  \t\t\t<itunes:subtitle><![CDATA[Game Changer - Part 3]]></itunes:subtitle>\n\t\t\
+  \t<itunes:episodeType>full</itunes:episodeType>\n\t\t\t\t\t</item>\n\t\t<item>\n\
+  \t\t\t<title>Game Changer - Part 2</title>\n\t\t\t<pubDate>Sun, 17 Sep 2017 19:20:56\
+  \ +0000</pubDate>\n\t\t\t<guid isPermaLink=\"false\"><![CDATA[3bd1d6c75521f6971574fa49c998fa0a]]></guid>\n\
+  \t\t\t<link><![CDATA[http://traffic.libsyn.com/5stoneschurch/20170917_-_Game_Changer_-_Part_2.mp3]]></link>\n\
+  \t\t\t<itunes:image href=\"http://static.libsyn.com/p/assets/7/0/d/d/70ddcc5bf9b27ebb/game-changer-1x1.jpg\"\
+  \ />\n\t\t\t<description><![CDATA[<p>Game Changer - Part 2</p>]]></description>\n\
+  \t\t\t<content:encoded><![CDATA[<p>Game Changer - Part 2</p>]]></content:encoded>\n\
+  \t\t\t<enclosure length=\"26888489\" type=\"audio/mpeg\" url=\"http://traffic.libsyn.com/5stoneschurch/20170917_-_Game_Changer_-_Part_2.mp3?dest-id=428582\"\
+  \ />\n\t\t\t<itunes:duration>27:53</itunes:duration>\n\t\t\t<itunes:explicit>clean</itunes:explicit>\n\
+  \t\t\t<itunes:keywords>the,franklin,free,5,game,pastor,church,christianity,sean,clarke,stones,changer,messages,sermons</itunes:keywords>\n\
+  \t\t\t<itunes:subtitle><![CDATA[Game Changer - Part 2]]></itunes:subtitle>\n\t\t\
+  \t<itunes:episodeType>full</itunes:episodeType>\n\t\t\t\t\t</item>\n\t\t<item>\n\
+  \t\t\t<title>Game Changer - Part 1</title>\n\t\t\t<pubDate>Sun, 10 Sep 2017 19:21:11\
+  \ +0000</pubDate>\n\t\t\t<guid isPermaLink=\"false\"><![CDATA[ac2caba923f40e0ecaf20a10da128baf]]></guid>\n\
+  \t\t\t<link><![CDATA[http://traffic.libsyn.com/5stoneschurch/20170910_-_Game_Changer.mp3]]></link>\n\
+  \t\t\t<itunes:image href=\"http://static.libsyn.com/p/assets/6/a/7/c/6a7ca0835172256a/game-changer-1x1.jpg\"\
+  \ />\n\t\t\t<description><![CDATA[<p>Game Changer - Part 2</p>]]></description>\n\
+  \t\t\t<content:encoded><![CDATA[<p>Game Changer - Part 2</p>]]></content:encoded>\n\
+  \t\t\t<enclosure length=\"21593363\" type=\"audio/mpeg\" url=\"http://traffic.libsyn.com/5stoneschurch/20170910_-_Game_Changer.mp3?dest-id=428582\"\
+  \ />\n\t\t\t<itunes:duration>22:22</itunes:duration>\n\t\t\t<itunes:explicit>clean</itunes:explicit>\n\
+  \t\t\t<itunes:keywords>the,franklin,free,5,game,pastor,church,christianity,sean,clarke,stones,changer,messages,tn,sermons</itunes:keywords>\n\
+  \t\t\t<itunes:subtitle><![CDATA[Game Changer - Part 2]]></itunes:subtitle>\n\t\t\
+  \t<itunes:episodeType>full</itunes:episodeType>\n\t\t\t\t\t</item>\n\t\t<item>\n\
+  \t\t\t<title>Unquestionably FREE - Part 3</title>\n\t\t\t<itunes:title>Unquestionably\
+  \ FREE - Part 3</itunes:title>\n\t\t\t<pubDate>Sun, 03 Sep 2017 20:55:33 +0000</pubDate>\n\
+  \t\t\t<guid isPermaLink=\"false\"><![CDATA[d254e4bf9ca800e7da999789fc04643c]]></guid>\n\
+  \t\t\t<link><![CDATA[http://traffic.libsyn.com/5stoneschurch/20170903_-_Unquestionably_FREE_-_Part_3.mp3]]></link>\n\
+  \t\t\t<itunes:image href=\"http://static.libsyn.com/p/assets/d/f/a/0/dfa077085b3a508f/unquestionably-free-1x1.jpg\"\
+  \ />\n\t\t\t<description><![CDATA[<p>Unquestionably FREE - Part 3</p>]]></description>\n\
+  \t\t\t<content:encoded><![CDATA[<p>Unquestionably FREE - Part 3</p>]]></content:encoded>\n\
+  \t\t\t<enclosure length=\"21956675\" type=\"audio/mpeg\" url=\"http://traffic.libsyn.com/5stoneschurch/20170903_-_Unquestionably_FREE_-_Part_3.mp3?dest-id=428582\"\
+  \ />\n\t\t\t<itunes:duration>22:49</itunes:duration>\n\t\t\t<itunes:explicit>clean</itunes:explicit>\n\
+  \t\t\t<itunes:keywords>the,franklin,free,5,pastor,church,christianity,sean,clarke,stones,messages,tn,sermons,unquestionably</itunes:keywords>\n\
+  \t\t\t<itunes:subtitle><![CDATA[Unquestionably FREE - Part 3]]></itunes:subtitle>\n\
+  \t\t\t<itunes:summary>v</itunes:summary>\n\t\t\t<itunes:episodeType>full</itunes:episodeType>\n\
+  \t\t\t\t\t</item>\n\t\t<item>\n\t\t\t<title>Unquestionably FREE - Part 2</title>\n\
+  \t\t\t<pubDate>Sun, 27 Aug 2017 19:16:24 +0000</pubDate>\n\t\t\t<guid isPermaLink=\"\
+  false\"><![CDATA[4d106e0739bbdf6b03a8900a644db769]]></guid>\n\t\t\t<link><![CDATA[http://traffic.libsyn.com/5stoneschurch/20170827_-_Unquestionably_FREE_-_Part_2.mp3]]></link>\n\
+  \t\t\t<itunes:image href=\"http://static.libsyn.com/p/assets/3/5/a/8/35a845908b86101b/unquestionably-free-1x1.jpg\"\
+  \ />\n\t\t\t<description><![CDATA[<p>Unquestionably FREE - Part 2</p>]]></description>\n\
+  \t\t\t<content:encoded><![CDATA[<p>Unquestionably FREE - Part 2</p>]]></content:encoded>\n\
+  \t\t\t<enclosure length=\"31062752\" type=\"audio/mpeg\" url=\"http://traffic.libsyn.com/5stoneschurch/20170827_-_Unquestionably_FREE_-_Part_2.mp3?dest-id=428582\"\
+  \ />\n\t\t\t<itunes:duration>32:18</itunes:duration>\n\t\t\t<itunes:explicit>clean</itunes:explicit>\n\
+  \t\t\t<itunes:keywords>the,franklin,5,voice,pastor,church,christianity,sean,clarke,stones,messages,tn,sermons</itunes:keywords>\n\
+  \t\t\t<itunes:subtitle><![CDATA[Unquestionably FREE - Part 2]]></itunes:subtitle>\n\
+  \t\t\t<itunes:episodeType>full</itunes:episodeType>\n\t\t\t\t\t</item>\n\t\t<item>\n\
+  \t\t\t<title>Unquestionably FREE - Part 1</title>\n\t\t\t<pubDate>Sun, 20 Aug 2017\
+  \ 18:34:26 +0000</pubDate>\n\t\t\t<guid isPermaLink=\"false\"><![CDATA[7e7ae6cfc6720897183907ce60080964]]></guid>\n\
+  \t\t\t<link><![CDATA[http://traffic.libsyn.com/5stoneschurch/20170820_-_Unquestionably_FREE_-_Part_1.mp3]]></link>\n\
+  \t\t\t<itunes:image href=\"http://static.libsyn.com/p/assets/1/c/8/c/1c8c0cf057f7b0d1/unquestionably-free-1x1.jpg\"\
+  \ />\n\t\t\t<description><![CDATA[<p>Unquestionably FREE - Part 1</p>]]></description>\n\
+  \t\t\t<content:encoded><![CDATA[<p>Unquestionably FREE - Part 1</p>]]></content:encoded>\n\
+  \t\t\t<enclosure length=\"29160619\" type=\"audio/mpeg\" url=\"http://traffic.libsyn.com/5stoneschurch/20170820_-_Unquestionably_FREE_-_Part_1.mp3?dest-id=428582\"\
+  \ />\n\t\t\t<itunes:duration>30:20</itunes:duration>\n\t\t\t<itunes:explicit>clean</itunes:explicit>\n\
+  \t\t\t<itunes:keywords>the,franklin,5,voice,pastor,church,christianity,sean,clarke,stones,messages,tn,sermons</itunes:keywords>\n\
+  \t\t\t<itunes:subtitle><![CDATA[Unquestionably FREE - Part 1]]></itunes:subtitle>\n\
+  \t\t\t<itunes:episodeType>full</itunes:episodeType>\n\t\t\t\t\t</item>\n\t\t<item>\n\
+  \t\t\t<title>Go</title>\n\t\t\t<pubDate>Sun, 13 Aug 2017 19:08:13 +0000</pubDate>\n\
+  \t\t\t<guid isPermaLink=\"false\"><![CDATA[3e8bd4ad8176a888162da8debcf0624f]]></guid>\n\
+  \t\t\t<link><![CDATA[http://traffic.libsyn.com/5stoneschurch/20170813_-_Go.mp3]]></link>\n\
+  \t\t\t<itunes:image href=\"http://static.libsyn.com/p/assets/a/9/3/6/a9361f61512c421c/podcast-logo.jpg\"\
+  \ />\n\t\t\t<description><![CDATA[<p>Go</p>]]></description>\n\t\t\t<content:encoded><![CDATA[<p>Go</p>]]></content:encoded>\n\
+  \t\t\t<enclosure length=\"30424421\" type=\"audio/mpeg\" url=\"http://traffic.libsyn.com/5stoneschurch/20170813_-_Go.mp3?dest-id=428582\"\
+  \ />\n\t\t\t<itunes:duration>31:42</itunes:duration>\n\t\t\t<itunes:explicit>clean</itunes:explicit>\n\
+  \t\t\t<itunes:keywords>the,franklin,5,voice,pastor,church,christianity,sean,clarke,stones,messages,tn,sermons</itunes:keywords>\n\
+  \t\t\t<itunes:subtitle><![CDATA[Go]]></itunes:subtitle>\n\t\t\t<itunes:episodeType>full</itunes:episodeType>\n\
+  \t\t\t\t\t</item>\n\t\t<item>\n\t\t\t<title>Connected - Part 2</title>\n\t\t\t<pubDate>Sun,\
+  \ 06 Aug 2017 19:14:51 +0000</pubDate>\n\t\t\t<guid isPermaLink=\"false\"><![CDATA[02f278c55a909497980bffebbc28b4c9]]></guid>\n\
+  \t\t\t<link><![CDATA[http://traffic.libsyn.com/5stoneschurch/20170806_-_Connected_-_Part_2.mp3]]></link>\n\
+  \t\t\t<itunes:image href=\"http://static.libsyn.com/p/assets/7/5/e/8/75e8ea2edd1f8e17/connected-1x1.jpg\"\
+  \ />\n\t\t\t<description><![CDATA[<p>Connected - Part 2</p>]]></description>\n\t\
+  \t\t<content:encoded><![CDATA[<p>Connected - Part 2</p>]]></content:encoded>\n\t\
+  \t\t<enclosure length=\"26355967\" type=\"audio/mpeg\" url=\"http://traffic.libsyn.com/5stoneschurch/20170806_-_Connected_-_Part_2.mp3?dest-id=428582\"\
+  \ />\n\t\t\t<itunes:duration>27:17</itunes:duration>\n\t\t\t<itunes:explicit>clean</itunes:explicit>\n\
+  \t\t\t<itunes:keywords>the,franklin,5,voice,pastor,church,christianity,sean,clarke,stones,messages,tn,sermons</itunes:keywords>\n\
+  \t\t\t<itunes:subtitle><![CDATA[Connected - Part 2]]></itunes:subtitle>\n\t\t\t\
+  <itunes:episodeType>full</itunes:episodeType>\n\t\t\t\t\t</item>\n\t\t<item>\n\t\
+  \t\t<title>Connected - Part 1</title>\n\t\t\t<pubDate>Sun, 30 Jul 2017 19:15:44\
+  \ +0000</pubDate>\n\t\t\t<guid isPermaLink=\"false\"><![CDATA[102101bb1246e4257cdf99149e2c056a]]></guid>\n\
+  \t\t\t<link><![CDATA[http://traffic.libsyn.com/5stoneschurch/20170730_-_Connected_-_Part_1.mp3]]></link>\n\
+  \t\t\t<itunes:image href=\"http://static.libsyn.com/p/assets/d/1/0/9/d109350bff671aae/connected-1x1.jpg\"\
+  \ />\n\t\t\t<description><![CDATA[<p>Connected - Part 1</p>]]></description>\n\t\
+  \t\t<content:encoded><![CDATA[<p>Connected - Part 1</p>]]></content:encoded>\n\t\
+  \t\t<enclosure length=\"28789743\" type=\"audio/mpeg\" url=\"http://traffic.libsyn.com/5stoneschurch/20170730_-_Connected_-_Part_1.mp3?dest-id=428582\"\
+  \ />\n\t\t\t<itunes:duration>29:49</itunes:duration>\n\t\t\t<itunes:explicit>clean</itunes:explicit>\n\
+  \t\t\t<itunes:keywords>the,franklin,5,voice,pastor,church,christianity,sean,clarke,stones,messages,tn,sermons</itunes:keywords>\n\
+  \t\t\t<itunes:subtitle><![CDATA[Connected - Part 1]]></itunes:subtitle>\n\t\t\t\
+  <itunes:episodeType>full</itunes:episodeType>\n\t\t\t\t\t</item>\n\t\t<item>\n\t\
+  \t\t<title>The Voice - Part 4</title>\n\t\t\t<pubDate>Sun, 23 Jul 2017 18:37:51\
+  \ +0000</pubDate>\n\t\t\t<guid isPermaLink=\"false\"><![CDATA[008a1f2a986518343d4607a55436a788]]></guid>\n\
+  \t\t\t<link><![CDATA[http://traffic.libsyn.com/5stoneschurch/20170723_-_The_Voice_-_Part_4.mp3]]></link>\n\
+  \t\t\t<itunes:image href=\"http://static.libsyn.com/p/assets/7/a/1/2/7a126a959c2f9d73/the-voice-1x1.jpg\"\
+  \ />\n\t\t\t<description><![CDATA[<p>The Voice - Part 4</p>]]></description>\n\t\
+  \t\t<content:encoded><![CDATA[<p>The Voice - Part 4</p>]]></content:encoded>\n\t\
+  \t\t<enclosure length=\"27381722\" type=\"audio/mpeg\" url=\"http://traffic.libsyn.com/5stoneschurch/20170723_-_The_Voice_-_Part_4.mp3?dest-id=428582\"\
+  \ />\n\t\t\t<itunes:duration>28:29</itunes:duration>\n\t\t\t<itunes:explicit>clean</itunes:explicit>\n\
+  \t\t\t<itunes:keywords>the,franklin,5,voice,pastor,church,christianity,sean,clarke,stones,messages,tn,sermons</itunes:keywords>\n\
+  \t\t\t<itunes:subtitle><![CDATA[The Voice - Part 4]]></itunes:subtitle>\n\t\t\t\t\
+  \t</item>\n\t\t<item>\n\t\t\t<title>The Voice - Part 3</title>\n\t\t\t<pubDate>Sun,\
+  \ 16 Jul 2017 18:37:30 +0000</pubDate>\n\t\t\t<guid isPermaLink=\"false\"><![CDATA[3b044daa8528d584a011b4e8f0fd046c]]></guid>\n\
+  \t\t\t<link><![CDATA[http://traffic.libsyn.com/5stoneschurch/20170716_-_The_Voice_-_Part_3.mp3]]></link>\n\
+  \t\t\t<itunes:image href=\"http://static.libsyn.com/p/assets/2/c/4/3/2c43a0db171ebf46/the-voice-1x1.jpg\"\
+  \ />\n\t\t\t<description><![CDATA[<p>The Voice - Part 3</p>]]></description>\n\t\
+  \t\t<content:encoded><![CDATA[<p>The Voice - Part 3</p>]]></content:encoded>\n\t\
+  \t\t<enclosure length=\"30281061\" type=\"audio/mpeg\" url=\"http://traffic.libsyn.com/5stoneschurch/20170716_-_The_Voice_-_Part_3.mp3?dest-id=428582\"\
+  \ />\n\t\t\t<itunes:duration>31:33</itunes:duration>\n\t\t\t<itunes:explicit>clean</itunes:explicit>\n\
+  \t\t\t<itunes:keywords>the,franklin,5,voice,pastor,church,christianity,sean,clarke,stones,messages,tn,sermons</itunes:keywords>\n\
+  \t\t\t<itunes:subtitle><![CDATA[The Voice - Part 3]]></itunes:subtitle>\n\t\t\t\t\
+  \t</item>\n\t\t<item>\n\t\t\t<title>The Voice - Part 2</title>\n\t\t\t<pubDate>Sun,\
+  \ 09 Jul 2017 17:21:51 +0000</pubDate>\n\t\t\t<guid isPermaLink=\"false\"><![CDATA[02efcb6184b3992d91f868dff596c932]]></guid>\n\
+  \t\t\t<link><![CDATA[http://traffic.libsyn.com/5stoneschurch/20170709_-_The_Voice_-_Part_2.mp3]]></link>\n\
+  \t\t\t<itunes:image href=\"http://static.libsyn.com/p/assets/d/1/c/b/d1cb44bdc73cd86c/the-voice-1x1.jpg\"\
+  \ />\n\t\t\t<description><![CDATA[<p>The Voice - Part 2</p>]]></description>\n\t\
+  \t\t<content:encoded><![CDATA[<p>The Voice - Part 2</p>]]></content:encoded>\n\t\
+  \t\t<enclosure length=\"25289836\" type=\"audio/mpeg\" url=\"http://traffic.libsyn.com/5stoneschurch/20170709_-_The_Voice_-_Part_2.mp3?dest-id=428582\"\
+  \ />\n\t\t\t<itunes:duration>26:18</itunes:duration>\n\t\t\t<itunes:explicit>clean</itunes:explicit>\n\
+  \t\t\t<itunes:keywords>the,franklin,5,voice,pastor,church,christianity,sean,clarke,stones,messages,tn,sermons</itunes:keywords>\n\
+  \t\t\t<itunes:subtitle><![CDATA[The Voice - Part 2]]></itunes:subtitle>\n\t\t\t\t\
+  \t</item>\n\t\t<item>\n\t\t\t<title>The Voice - Part 1</title>\n\t\t\t<pubDate>Mon,\
+  \ 03 Jul 2017 22:19:03 +0000</pubDate>\n\t\t\t<guid isPermaLink=\"false\"><![CDATA[7c346b094c0a2e73b62b243a7665a0d6]]></guid>\n\
+  \t\t\t<link><![CDATA[http://traffic.libsyn.com/5stoneschurch/20170702_-_The_Voice_-_Part_1.mp3]]></link>\n\
+  \t\t\t<itunes:image href=\"http://static.libsyn.com/p/assets/d/8/9/b/d89b1d0bfe3ad67d/the-voice-1x1.jpg\"\
+  \ />\n\t\t\t<description><![CDATA[<p>The Voice - Part 1</p>]]></description>\n\t\
+  \t\t<content:encoded><![CDATA[<p>The Voice - Part 1</p>]]></content:encoded>\n\t\
+  \t\t<enclosure length=\"27180266\" type=\"audio/mpeg\" url=\"http://traffic.libsyn.com/5stoneschurch/20170702_-_The_Voice_-_Part_1.mp3?dest-id=428582\"\
+  \ />\n\t\t\t<itunes:duration>28:16</itunes:duration>\n\t\t\t<itunes:explicit>clean</itunes:explicit>\n\
+  \t\t\t<itunes:keywords>the,franklin,5,voice,pastor,church,christianity,sean,clarke,stones,messages,tn,sermons</itunes:keywords>\n\
+  \t\t\t<itunes:subtitle><![CDATA[The Voice - Part 1]]></itunes:subtitle>\n\t\t\t\t\
+  \t</item>\n\t\t<item>\n\t\t\t<title>More Than Words - Part 5</title>\n\t\t\t<pubDate>Sun,\
+  \ 25 Jun 2017 19:16:35 +0000</pubDate>\n\t\t\t<guid isPermaLink=\"false\"><![CDATA[c18e452d42b7a5a6385d6fe7e7161347]]></guid>\n\
+  \t\t\t<link><![CDATA[http://traffic.libsyn.com/5stoneschurch/20170625_-_More_Than_Words_-_Part_5.mp3]]></link>\n\
+  \t\t\t<itunes:image href=\"http://static.libsyn.com/p/assets/e/9/c/3/e9c36e38eb27e4df/more-than-words-1x1.jpg\"\
+  \ />\n\t\t\t<description><![CDATA[<p>More Than Words - Part 5</p>]]></description>\n\
+  \t\t\t<content:encoded><![CDATA[<p>More Than Words - Part 5</p>]]></content:encoded>\n\
+  \t\t\t<enclosure length=\"27127269\" type=\"audio/mpeg\" url=\"http://traffic.libsyn.com/5stoneschurch/20170625_-_More_Than_Words_-_Part_5.mp3?dest-id=428582\"\
+  \ />\n\t\t\t<itunes:duration>28:11</itunes:duration>\n\t\t\t<itunes:explicit>clean</itunes:explicit>\n\
+  \t\t\t<itunes:keywords>franklin,5,pastor,church,christianity,sean,clarke,stones,messages,tn,sermons</itunes:keywords>\n\
+  \t\t\t<itunes:subtitle><![CDATA[More Than Words - Part 5]]></itunes:subtitle>\n\t\
+  \t\t\t\t</item>\n\t\t<item>\n\t\t\t<title>More Than Words - Part 4</title>\n\t\t\
+  \t<pubDate>Sun, 18 Jun 2017 20:23:24 +0000</pubDate>\n\t\t\t<guid isPermaLink=\"\
+  false\"><![CDATA[7ffad479cfdda30b5a56154254158297]]></guid>\n\t\t\t<link><![CDATA[http://traffic.libsyn.com/5stoneschurch/20170618_-_More_Than_Words_-_Part_4.mp3]]></link>\n\
+  \t\t\t<itunes:image href=\"http://static.libsyn.com/p/assets/c/8/d/c/c8dc50b55e22128e/more-than-words-1x1.jpg\"\
+  \ />\n\t\t\t<description><![CDATA[<p>More Than Words - Part 4</p>]]></description>\n\
+  \t\t\t<content:encoded><![CDATA[<p>More Than Words - Part 4</p>]]></content:encoded>\n\
+  \t\t\t<enclosure length=\"26195220\" type=\"audio/mpeg\" url=\"http://traffic.libsyn.com/5stoneschurch/20170618_-_More_Than_Words_-_Part_4.mp3?dest-id=428582\"\
+  \ />\n\t\t\t<itunes:duration>27:12</itunes:duration>\n\t\t\t<itunes:explicit>clean</itunes:explicit>\n\
+  \t\t\t<itunes:keywords>franklin,5,pastor,church,christianity,sean,clarke,stones,messages,tn,sermons</itunes:keywords>\n\
+  \t\t\t<itunes:subtitle><![CDATA[More Than Words - Part 4]]></itunes:subtitle>\n\t\
+  \t\t\t\t</item>\n\t\t<item>\n\t\t\t<title>More Than Words - Part 3</title>\n\t\t\
+  \t<pubDate>Sun, 11 Jun 2017 18:57:01 +0000</pubDate>\n\t\t\t<guid isPermaLink=\"\
+  false\"><![CDATA[86e2f6ee68404343d61b272917853917]]></guid>\n\t\t\t<link><![CDATA[http://traffic.libsyn.com/5stoneschurch/20170611_-_More_Than_Words_-_Part_3.mp3]]></link>\n\
+  \t\t\t<itunes:image href=\"http://static.libsyn.com/p/assets/c/b/b/9/cbb9d011ccc6bbc6/more-than-words-1x1.jpg\"\
+  \ />\n\t\t\t<description><![CDATA[<p>More Than Words - Part 3</p>]]></description>\n\
+  \t\t\t<content:encoded><![CDATA[<p>More Than Words - Part 3</p>]]></content:encoded>\n\
+  \t\t\t<enclosure length=\"27491601\" type=\"audio/mpeg\" url=\"http://traffic.libsyn.com/5stoneschurch/20170611_-_More_Than_Words_-_Part_3.mp3?dest-id=428582\"\
+  \ />\n\t\t\t<itunes:duration>28:38</itunes:duration>\n\t\t\t<itunes:explicit>clean</itunes:explicit>\n\
+  \t\t\t<itunes:keywords>franklin,5,pastor,church,christianity,sean,clarke,stones,messages,tn,sermons</itunes:keywords>\n\
+  \t\t\t<itunes:subtitle><![CDATA[More Than Words - Part 3]]></itunes:subtitle>\n\t\
+  \t\t\t\t</item>\n\t\t<item>\n\t\t\t<title>More Than Words - Part 2</title>\n\t\t\
+  \t<pubDate>Sun, 04 Jun 2017 18:41:15 +0000</pubDate>\n\t\t\t<guid isPermaLink=\"\
+  false\"><![CDATA[7cdf2f76e39e90a793ff82e2f43c3952]]></guid>\n\t\t\t<link><![CDATA[http://traffic.libsyn.com/5stoneschurch/20170604_-_More_Than_Words_-_Part_2.mp3]]></link>\n\
+  \t\t\t<itunes:image href=\"http://static.libsyn.com/p/assets/5/9/d/b/59dbcd314429c9e2/more-than-words-1x1.jpg\"\
+  \ />\n\t\t\t<description><![CDATA[<p>More Than Words - Part 2</p>]]></description>\n\
+  \t\t\t<content:encoded><![CDATA[<p>More Than Words - Part 2</p>]]></content:encoded>\n\
+  \t\t\t<enclosure length=\"28909865\" type=\"audio/mpeg\" url=\"http://traffic.libsyn.com/5stoneschurch/20170604_-_More_Than_Words_-_Part_2.mp3?dest-id=428582\"\
+  \ />\n\t\t\t<itunes:duration>30:02</itunes:duration>\n\t\t\t<itunes:explicit>clean</itunes:explicit>\n\
+  \t\t\t<itunes:keywords>franklin,5,pastor,church,christianity,sean,clarke,stones,messages,tn,sermons</itunes:keywords>\n\
+  \t\t\t<itunes:subtitle><![CDATA[More Than Words - Part 2]]></itunes:subtitle>\n\t\
+  \t\t\t\t</item>\n\t\t<item>\n\t\t\t<title>Best Summer Ever - Part 3</title>\n\t\t\
+  \t<pubDate>Sun, 21 May 2017 19:25:34 +0000</pubDate>\n\t\t\t<guid isPermaLink=\"\
+  false\"><![CDATA[fd9aecb7749b95026730442b88a5821e]]></guid>\n\t\t\t<link><![CDATA[http://traffic.libsyn.com/5stoneschurch/20170521_-_Best_Summer_Ever_-_Part_3.mp3]]></link>\n\
+  \t\t\t<itunes:image href=\"http://static.libsyn.com/p/assets/d/0/6/2/d062122f93bd8b72/best-summer-ever-1x1.jpg\"\
+  \ />\n\t\t\t<description><![CDATA[<p>Best Summer Ever - Part 3</p>]]></description>\n\
+  \t\t\t<content:encoded><![CDATA[<p>Best Summer Ever - Part 3</p>]]></content:encoded>\n\
+  \t\t\t<enclosure length=\"29878422\" type=\"audio/mpeg\" url=\"http://traffic.libsyn.com/5stoneschurch/20170521_-_Best_Summer_Ever_-_Part_3.mp3?dest-id=428582\"\
+  \ />\n\t\t\t<itunes:duration>30:57</itunes:duration>\n\t\t\t<itunes:explicit>clean</itunes:explicit>\n\
+  \t\t\t<itunes:keywords>franklin,5,pastor,church,christianity,sean,clarke,stones,messages,tn,sermons</itunes:keywords>\n\
+  \t\t\t<itunes:subtitle><![CDATA[Best Summer Ever - Part 3]]></itunes:subtitle>\n\
+  \t\t\t\t\t</item>\n\t\t<item>\n\t\t\t<title>Best Summer Ever - Part 2 - Mother's\
+  \ Day</title>\n\t\t\t<pubDate>Mon, 15 May 2017 02:51:18 +0000</pubDate>\n\t\t\t\
+  <guid isPermaLink=\"false\"><![CDATA[85818e4b78d2cf316185b974ece06485]]></guid>\n\
+  \t\t\t<link><![CDATA[http://traffic.libsyn.com/5stoneschurch/20170514_-_Best_Summer_Ever_-_Part_2_-_Mothers_Day_2017.mp3]]></link>\n\
+  \t\t\t<itunes:image href=\"http://static.libsyn.com/p/assets/b/9/5/6/b956c3c74bcbc631/best-summer-ever-1x1.jpg\"\
+  \ />\n\t\t\t<description><![CDATA[<p>Best Summer Ever - Part 2 - Mother's Day</p>]]></description>\n\
+  \t\t\t<content:encoded><![CDATA[<p>Best Summer Ever - Part 2 - Mother's Day</p>]]></content:encoded>\n\
+  \t\t\t<enclosure length=\"30484463\" type=\"audio/mpeg\" url=\"http://traffic.libsyn.com/5stoneschurch/20170514_-_Best_Summer_Ever_-_Part_2_-_Mothers_Day_2017.mp3?dest-id=428582\"\
+  \ />\n\t\t\t<itunes:duration>31:35</itunes:duration>\n\t\t\t<itunes:explicit>clean</itunes:explicit>\n\
+  \t\t\t<itunes:keywords>franklin,5,pastor,church,christianity,sean,clarke,stones,messages,tn,sermons</itunes:keywords>\n\
+  \t\t\t<itunes:subtitle><![CDATA[Best Summer Ever - Part 2 - Mother's Day]]></itunes:subtitle>\n\
+  \t\t\t\t\t</item>\n\t\t<item>\n\t\t\t<title>Best Summer Ever - Part 1</title>\n\t\
+  \t\t<pubDate>Sun, 07 May 2017 19:14:07 +0000</pubDate>\n\t\t\t<guid isPermaLink=\"\
+  false\"><![CDATA[12d6b43ac59899fe78cfd5f2de6aeea0]]></guid>\n\t\t\t<link><![CDATA[http://traffic.libsyn.com/5stoneschurch/20170507_-_Best_Summer_Ever_-_Part_1.mp3]]></link>\n\
+  \t\t\t<itunes:image href=\"http://static.libsyn.com/p/assets/c/e/9/3/ce9331394b82d2fe/best-summer-ever-1x1.jpg\"\
+  \ />\n\t\t\t<description><![CDATA[<p>Best Summer Ever - Part 1</p>]]></description>\n\
+  \t\t\t<content:encoded><![CDATA[<p>Best Summer Ever - Part 1</p>]]></content:encoded>\n\
+  \t\t\t<enclosure length=\"30662514\" type=\"audio/mpeg\" url=\"http://traffic.libsyn.com/5stoneschurch/20170507_-_Best_Summer_Ever_-_Part_1.mp3?dest-id=428582\"\
+  \ />\n\t\t\t<itunes:duration>31:46</itunes:duration>\n\t\t\t<itunes:explicit>clean</itunes:explicit>\n\
+  \t\t\t<itunes:keywords>franklin,5,pastor,church,christianity,sean,clarke,stones,messages,tn,sermons</itunes:keywords>\n\
+  \t\t\t<itunes:subtitle><![CDATA[Best Summer Ever - Part 1]]></itunes:subtitle>\n\
+  \t\t\t\t\t</item>\n\t\t<item>\n\t\t\t<title>Breaking Free - Part 2</title>\n\t\t\
+  \t<pubDate>Sun, 30 Apr 2017 20:16:13 +0000</pubDate>\n\t\t\t<guid isPermaLink=\"\
+  false\"><![CDATA[34ecb107e9651924325a34f2cc07873e]]></guid>\n\t\t\t<link><![CDATA[http://traffic.libsyn.com/5stoneschurch/20170430_-_Breaking_Free_-_Part_2.mp3]]></link>\n\
+  \t\t\t<itunes:image href=\"http://static.libsyn.com/p/assets/0/d/a/c/0dacca2f8e3589d1/breaking-free-1x1.jpg\"\
+  \ />\n\t\t\t<description><![CDATA[<p>Breaking Free - Part 2</p>]]></description>\n\
+  \t\t\t<content:encoded><![CDATA[<p>Breaking Free - Part 2</p>]]></content:encoded>\n\
+  \t\t\t<enclosure length=\"30570688\" type=\"audio/mpeg\" url=\"http://traffic.libsyn.com/5stoneschurch/20170430_-_Breaking_Free_-_Part_2.mp3?dest-id=428582\"\
+  \ />\n\t\t\t<itunes:duration>31:37</itunes:duration>\n\t\t\t<itunes:explicit>clean</itunes:explicit>\n\
+  \t\t\t<itunes:keywords>franklin,5,pastor,church,christianity,sean,clarke,stones,messages,tn,sermons</itunes:keywords>\n\
+  \t\t\t<itunes:subtitle><![CDATA[Breaking Free - Part 2]]></itunes:subtitle>\n\t\t\
+  \t\t\t</item>\n\t\t<item>\n\t\t\t<title>Breaking Free - Part 1</title>\n\t\t\t<pubDate>Sun,\
+  \ 23 Apr 2017 19:36:58 +0000</pubDate>\n\t\t\t<guid isPermaLink=\"false\"><![CDATA[5c656b403aa2fd99960eea091e9cf59f]]></guid>\n\
+  \t\t\t<link><![CDATA[http://traffic.libsyn.com/5stoneschurch/20170423_-_Breaking_Free_-_Part_1.mp3]]></link>\n\
+  \t\t\t<itunes:image href=\"http://static.libsyn.com/p/assets/d/4/e/d/d4ed7cd90a20183e/breaking-free-1x1.jpg\"\
+  \ />\n\t\t\t<description><![CDATA[<p>Breaking Free - Part 1</p>]]></description>\n\
+  \t\t\t<content:encoded><![CDATA[<p>Breaking Free - Part 1</p>]]></content:encoded>\n\
+  \t\t\t<enclosure length=\"21941503\" type=\"audio/mpeg\" url=\"http://traffic.libsyn.com/5stoneschurch/20170423_-_Breaking_Free_-_Part_1.mp3?dest-id=428582\"\
+  \ />\n\t\t\t<itunes:duration>22:38</itunes:duration>\n\t\t\t<itunes:explicit>clean</itunes:explicit>\n\
+  \t\t\t<itunes:keywords>franklin,5,pastor,church,christianity,sean,clarke,stones,messages,tn,sermons</itunes:keywords>\n\
+  \t\t\t<itunes:subtitle><![CDATA[Breaking Free - Part 1]]></itunes:subtitle>\n\t\t\
+  \t\t\t</item>\n\t\t<item>\n\t\t\t<title>Easter Sunday</title>\n\t\t\t<pubDate>Tue,\
+  \ 18 Apr 2017 02:59:26 +0000</pubDate>\n\t\t\t<guid isPermaLink=\"false\"><![CDATA[891bd5c548e6cee52d26d73a248d2984]]></guid>\n\
+  \t\t\t<link><![CDATA[http://traffic.libsyn.com/5stoneschurch/20170416_-_Easter_Sunday.mp3]]></link>\n\
+  \t\t\t<itunes:image href=\"http://static.libsyn.com/p/assets/a/9/3/6/a9361f61512c421c/podcast-logo.jpg\"\
+  \ />\n\t\t\t<description><![CDATA[<p>Easter Sunday</p>]]></description>\n\t\t\t\
+  <content:encoded><![CDATA[<p>Easter Sunday</p>]]></content:encoded>\n\t\t\t<enclosure\
+  \ length=\"24153361\" type=\"audio/mpeg\" url=\"http://traffic.libsyn.com/5stoneschurch/20170416_-_Easter_Sunday.mp3?dest-id=428582\"\
+  \ />\n\t\t\t<itunes:duration>25:10</itunes:duration>\n\t\t\t<itunes:explicit>clean</itunes:explicit>\n\
+  \t\t\t<itunes:keywords>franklin,5,pastor,church,christianity,sean,clarke,stones,messages,tn,sermons</itunes:keywords>\n\
+  \t\t\t<itunes:subtitle><![CDATA[Easter Sunday]]></itunes:subtitle>\n\t\t\t\t\t</item>\n\
+  \t\t<item>\n\t\t\t<title>Palm Sunday</title>\n\t\t\t<pubDate>Sun, 09 Apr 2017 18:53:17\
+  \ +0000</pubDate>\n\t\t\t<guid isPermaLink=\"false\"><![CDATA[f5975503ed4c68bef8612d95bf58ce62]]></guid>\n\
+  \t\t\t<link><![CDATA[http://traffic.libsyn.com/5stoneschurch/20170409_-_Palm_Sunday.mp3]]></link>\n\
+  \t\t\t<itunes:image href=\"http://static.libsyn.com/p/assets/a/9/3/6/a9361f61512c421c/podcast-logo.jpg\"\
+  \ />\n\t\t\t<description><![CDATA[<p>Palm Sunday</p>]]></description>\n\t\t\t<content:encoded><![CDATA[<p>Palm\
+  \ Sunday</p>]]></content:encoded>\n\t\t\t<enclosure length=\"29442635\" type=\"\
+  audio/mpeg\" url=\"http://traffic.libsyn.com/5stoneschurch/20170409_-_Palm_Sunday.mp3?dest-id=428582\"\
+  \ />\n\t\t\t<itunes:duration>30:40</itunes:duration>\n\t\t\t<itunes:explicit>clean</itunes:explicit>\n\
+  \t\t\t<itunes:keywords>franklin,5,pastor,church,christianity,sean,clarke,stones,messages,tn,sermons</itunes:keywords>\n\
+  \t\t\t<itunes:subtitle><![CDATA[Palm Sunday]]></itunes:subtitle>\n\t\t\t\t\t</item>\n\
+  \t\t<item>\n\t\t\t<title>Doors - Part 5</title>\n\t\t\t<pubDate>Sun, 02 Apr 2017\
+  \ 19:00:45 +0000</pubDate>\n\t\t\t<guid isPermaLink=\"false\"><![CDATA[6ad46401d6ba175117f172ff3e2c4feb]]></guid>\n\
+  \t\t\t<link><![CDATA[http://traffic.libsyn.com/5stoneschurch/20170402_-_Doors_Part_5.mp3]]></link>\n\
+  \t\t\t<itunes:image href=\"http://static.libsyn.com/p/assets/a/9/3/6/a9361f61512c421c/podcast-logo.jpg\"\
+  \ />\n\t\t\t<description><![CDATA[<p>Doors - Part 5</p>]]></description>\n\t\t\t\
+  <content:encoded><![CDATA[<p>Doors - Part 5</p>]]></content:encoded>\n\t\t\t<enclosure\
+  \ length=\"29529988\" type=\"audio/mpeg\" url=\"http://traffic.libsyn.com/5stoneschurch/20170402_-_Doors_Part_5.mp3?dest-id=428582\"\
+  \ />\n\t\t\t<itunes:duration>30:46</itunes:duration>\n\t\t\t<itunes:explicit>clean</itunes:explicit>\n\
+  \t\t\t<itunes:keywords>franklin,5,pastor,church,christianity,sean,clarke,stones,messages,tn,sermons</itunes:keywords>\n\
+  \t\t\t<itunes:subtitle><![CDATA[Doors - Part 5]]></itunes:subtitle>\n\t\t\t\t\t\
+  </item>\n\t\t<item>\n\t\t\t<title>Doors - Part 4</title>\n\t\t\t<pubDate>Mon, 27\
+  \ Mar 2017 15:31:09 +0000</pubDate>\n\t\t\t<guid isPermaLink=\"false\"><![CDATA[d2afef6938c2a96b3f114f972e10e18b]]></guid>\n\
+  \t\t\t<link><![CDATA[http://traffic.libsyn.com/5stoneschurch/20170326_-_Doors_Part_4.mp3]]></link>\n\
+  \t\t\t<itunes:image href=\"http://static.libsyn.com/p/assets/a/9/3/6/a9361f61512c421c/podcast-logo.jpg\"\
+  \ />\n\t\t\t<description><![CDATA[<p>Doors - Part 4</p>]]></description>\n\t\t\t\
+  <content:encoded><![CDATA[<p>Doors - Part 4</p>]]></content:encoded>\n\t\t\t<enclosure\
+  \ length=\"27337374\" type=\"audio/mpeg\" url=\"http://traffic.libsyn.com/5stoneschurch/20170326_-_Doors_Part_4.mp3?dest-id=428582\"\
+  \ />\n\t\t\t<itunes:duration>28:29</itunes:duration>\n\t\t\t<itunes:explicit>clean</itunes:explicit>\n\
+  \t\t\t<itunes:keywords>franklin,5,pastor,church,christianity,sean,clarke,stones,messages,tn,sermons</itunes:keywords>\n\
+  \t\t\t<itunes:subtitle><![CDATA[Doors - Part 4]]></itunes:subtitle>\n\t\t\t\t\t\
+  </item>\n\t\t<item>\n\t\t\t<title>Doors - Part 2</title>\n\t\t\t<pubDate>Mon, 13\
+  \ Mar 2017 03:58:14 +0000</pubDate>\n\t\t\t<guid isPermaLink=\"false\"><![CDATA[59725aa1bd0479ca24edf4fc83eae71b]]></guid>\n\
+  \t\t\t<link><![CDATA[http://traffic.libsyn.com/5stoneschurch/20170312_-_Doors_Part_2.mp3]]></link>\n\
+  \t\t\t<itunes:image href=\"http://static.libsyn.com/p/assets/a/9/3/6/a9361f61512c421c/podcast-logo.jpg\"\
+  \ />\n\t\t\t<description><![CDATA[<p>Doors - Part 2</p>]]></description>\n\t\t\t\
+  <content:encoded><![CDATA[<p>Doors - Part 2</p>]]></content:encoded>\n\t\t\t<enclosure\
+  \ length=\"33329655\" type=\"audio/mpeg\" url=\"http://traffic.libsyn.com/5stoneschurch/20170312_-_Doors_Part_2.mp3?dest-id=428582\"\
+  \ />\n\t\t\t<itunes:duration>34:43</itunes:duration>\n\t\t\t<itunes:explicit>clean</itunes:explicit>\n\
+  \t\t\t<itunes:keywords>franklin,5,pastor,church,christianity,sean,clarke,stones,messages,tn,sermons</itunes:keywords>\n\
+  \t\t\t<itunes:subtitle><![CDATA[Doors - Part 2]]></itunes:subtitle>\n\t\t\t\t\t\
+  </item>\n\t\t<item>\n\t\t\t<title>Doors - Part 1</title>\n\t\t\t<pubDate>Sun, 05\
+  \ Mar 2017 20:15:44 +0000</pubDate>\n\t\t\t<guid isPermaLink=\"false\"><![CDATA[712cd83bab33a0491f1a03d516db9b7d]]></guid>\n\
+  \t\t\t<link><![CDATA[http://traffic.libsyn.com/5stoneschurch/20170305_-_Doors_Part_1.mp3]]></link>\n\
+  \t\t\t<itunes:image href=\"http://static.libsyn.com/p/assets/a/9/3/6/a9361f61512c421c/podcast-logo.jpg\"\
+  \ />\n\t\t\t<description><![CDATA[<p>Doors - Part 1</p>]]></description>\n\t\t\t\
+  <content:encoded><![CDATA[<p>Doors - Part 1</p>]]></content:encoded>\n\t\t\t<enclosure\
+  \ length=\"27037279\" type=\"audio/mpeg\" url=\"http://traffic.libsyn.com/5stoneschurch/20170305_-_Doors_Part_1.mp3?dest-id=428582\"\
+  \ />\n\t\t\t<itunes:duration>28:10</itunes:duration>\n\t\t\t<itunes:explicit>clean</itunes:explicit>\n\
+  \t\t\t<itunes:keywords>franklin,5,pastor,church,christianity,sean,clarke,stones,messages,tn,sermons</itunes:keywords>\n\
+  \t\t\t<itunes:subtitle><![CDATA[Doors - Part 1]]></itunes:subtitle>\n\t\t\t\t\t\
+  </item>\n\t\t<item>\n\t\t\t<title>Love Strong - Part 4</title>\n\t\t\t<pubDate>Sun,\
+  \ 05 Mar 2017 20:14:29 +0000</pubDate>\n\t\t\t<guid isPermaLink=\"false\"><![CDATA[b57c44e14a432b4c89feb224814a2d7d]]></guid>\n\
+  \t\t\t<link><![CDATA[http://traffic.libsyn.com/5stoneschurch/20170226_-_Love_Strong_Part_4.mp3]]></link>\n\
+  \t\t\t<itunes:image href=\"http://static.libsyn.com/p/assets/a/9/3/6/a9361f61512c421c/podcast-logo.jpg\"\
+  \ />\n\t\t\t<description><![CDATA[<p>Love Strong - Part 4</p>]]></description>\n\
+  \t\t\t<content:encoded><![CDATA[<p>Love Strong - Part 4</p>]]></content:encoded>\n\
+  \t\t\t<enclosure length=\"31481022\" type=\"audio/mpeg\" url=\"http://traffic.libsyn.com/5stoneschurch/20170226_-_Love_Strong_Part_4.mp3?dest-id=428582\"\
+  \ />\n\t\t\t<itunes:duration>32:48</itunes:duration>\n\t\t\t<itunes:explicit>clean</itunes:explicit>\n\
+  \t\t\t<itunes:keywords>franklin,5,pastor,church,christianity,sean,clarke,stones,messages,tn,sermons</itunes:keywords>\n\
+  \t\t\t<itunes:subtitle><![CDATA[Love Strong - Part 4]]></itunes:subtitle>\n\t\t\t\
+  \t\t</item>\n\t\t<item>\n\t\t\t<title>Love Strong - Part 3</title>\n\t\t\t<pubDate>Sun,\
+  \ 19 Feb 2017 20:18:21 +0000</pubDate>\n\t\t\t<guid isPermaLink=\"false\"><![CDATA[8b270c6ef028a58a4eb850ee44f20b33]]></guid>\n\
+  \t\t\t<link><![CDATA[http://traffic.libsyn.com/5stoneschurch/20170219_-_Love_Strong_Part_3.mp3]]></link>\n\
+  \t\t\t<itunes:image href=\"http://static.libsyn.com/p/assets/a/9/3/6/a9361f61512c421c/podcast-logo.jpg\"\
+  \ />\n\t\t\t<description><![CDATA[<p>Love Strong - Part 3</p>]]></description>\n\
+  \t\t\t<content:encoded><![CDATA[<p>Love Strong - Part 3</p>]]></content:encoded>\n\
+  \t\t\t<enclosure length=\"37105081\" type=\"audio/mpeg\" url=\"http://traffic.libsyn.com/5stoneschurch/20170219_-_Love_Strong_Part_3.mp3?dest-id=428582\"\
+  \ />\n\t\t\t<itunes:duration>38:39</itunes:duration>\n\t\t\t<itunes:explicit>clean</itunes:explicit>\n\
+  \t\t\t<itunes:keywords>franklin,5,pastor,church,christianity,sean,clarke,stones,messages,tn,sermons</itunes:keywords>\n\
+  \t\t\t<itunes:subtitle><![CDATA[Love Strong - Part 3]]></itunes:subtitle>\n\t\t\t\
+  \t\t</item>\n\t\t<item>\n\t\t\t<title>Love Strong - Part 2</title>\n\t\t\t<pubDate>Sun,\
+  \ 12 Feb 2017 20:49:59 +0000</pubDate>\n\t\t\t<guid isPermaLink=\"false\"><![CDATA[2911d290ba692cd78927841a073c51b1]]></guid>\n\
+  \t\t\t<link><![CDATA[http://traffic.libsyn.com/5stoneschurch/20170212_-_Love_Strong_Part_2.mp3]]></link>\n\
+  \t\t\t<itunes:image href=\"http://static.libsyn.com/p/assets/a/9/3/6/a9361f61512c421c/podcast-logo.jpg\"\
+  \ />\n\t\t\t<description><![CDATA[<p>Love Strong - Part 2</p>]]></description>\n\
+  \t\t\t<content:encoded><![CDATA[<p>Love Strong - Part 2</p>]]></content:encoded>\n\
+  \t\t\t<enclosure length=\"27707686\" type=\"audio/mpeg\" url=\"http://traffic.libsyn.com/5stoneschurch/20170212_-_Love_Strong_Part_2.mp3?dest-id=428582\"\
+  \ />\n\t\t\t<itunes:duration>28:52</itunes:duration>\n\t\t\t<itunes:explicit>clean</itunes:explicit>\n\
+  \t\t\t<itunes:keywords>franklin,5,pastor,church,christianity,sean,clarke,stones,messages,tn,sermons</itunes:keywords>\n\
+  \t\t\t<itunes:subtitle><![CDATA[Love Strong - Part 2]]></itunes:subtitle>\n\t\t\t\
+  \t\t</item>\n\t\t<item>\n\t\t\t<title>Love Strong - Part 1</title>\n\t\t\t<pubDate>Wed,\
+  \ 08 Feb 2017 01:12:07 +0000</pubDate>\n\t\t\t<guid isPermaLink=\"false\"><![CDATA[def0473430217f47499f93d173633f01]]></guid>\n\
+  \t\t\t<link><![CDATA[http://traffic.libsyn.com/5stoneschurch/20170205_-_Love_Strong_Part_1.mp3]]></link>\n\
+  \t\t\t<itunes:image href=\"http://static.libsyn.com/p/assets/a/9/3/6/a9361f61512c421c/podcast-logo.jpg\"\
+  \ />\n\t\t\t<description><![CDATA[<p>Love Strong - Part 1</p>]]></description>\n\
+  \t\t\t<content:encoded><![CDATA[<p>Love Strong - Part 1</p>]]></content:encoded>\n\
+  \t\t\t<enclosure length=\"25881204\" type=\"audio/mpeg\" url=\"http://traffic.libsyn.com/5stoneschurch/20170205_-_Love_Strong_Part_1.mp3?dest-id=428582\"\
+  \ />\n\t\t\t<itunes:duration>26:58</itunes:duration>\n\t\t\t<itunes:explicit>clean</itunes:explicit>\n\
+  \t\t\t<itunes:keywords>franklin,5,pastor,church,christianity,sean,clarke,stones,messages,tn,sermons</itunes:keywords>\n\
+  \t\t\t<itunes:subtitle><![CDATA[Love Strong - Part 1]]></itunes:subtitle>\n\t\t\t\
+  \t\t</item>\n\t</channel>\n</rss>\n"
+cookies: !!python/object:requests.cookies.RequestsCookieJar
+  _cookies: {}
+  _now: 1510618996
+  _policy: !!python/object:cookielib.DefaultCookiePolicy
+    _allowed_domains: null
+    _blocked_domains: !!python/tuple []
+    _now: 1510618996
+    hide_cookie2: false
+    netscape: true
+    rfc2109_as_netscape: null
+    rfc2965: false
+    strict_domain: false
+    strict_ns_domain: 0
+    strict_ns_set_initial_dollar: false
+    strict_ns_set_path: false
+    strict_ns_unverifiable: false
+    strict_rfc2965_unverifiable: true
+elapsed: !!python/object/apply:datetime.timedelta [0, 0, 127530]
+encoding: utf-8
+headers: !!python/object:requests.structures.CaseInsensitiveDict
+  _store: !!python/object/apply:urllib3.packages.ordered_dict.OrderedDict
+  - - - server
+      - !!python/tuple [Server, Apache/2.2.15 (CentOS)]
+    - - vary
+      - !!python/tuple [Vary, Accept-Encoding]
+    - - content-encoding
+      - !!python/tuple [Content-Encoding, gzip]
+    - - access-control-allow-origin
+      - !!python/tuple [Access-Control-Allow-Origin, '*']
+    - - x-libsyn-host
+      - !!python/tuple [X-Libsyn-Host, we1]
+    - - content-type
+      - !!python/tuple [Content-Type, application/rss+xml; charset=utf-8]
+    - - last-modified
+      - !!python/tuple [last-modified, 'Sun, 12 Nov 2017 18:41:54 GMT']
+    - - content-length
+      - !!python/tuple [Content-Length, '5042']
+    - - accept-ranges
+      - !!python/tuple [Accept-Ranges, bytes]
+    - - date
+      - !!python/tuple [Date, 'Tue, 14 Nov 2017 00:23:16 GMT']
+    - - x-varnish
+      - !!python/tuple [X-Varnish, 1168319924 1107495578]
+    - - age
+      - !!python/tuple [Age, '106878']
+    - - via
+      - !!python/tuple [Via, 1.1 varnish]
+    - - x-cache
+      - !!python/tuple [X-Cache, HIT]
+history: []
+reason: OK
+request: !!python/object:requests.models.PreparedRequest
+  _body_position: null
+  _cookies: !!python/object:requests.cookies.RequestsCookieJar
+    _cookies: {}
+    _now: 1510618996
+    _policy: !!python/object:cookielib.DefaultCookiePolicy
+      _allowed_domains: null
+      _blocked_domains: !!python/tuple []
+      _now: 1510618996
+      hide_cookie2: false
+      netscape: true
+      rfc2109_as_netscape: null
+      rfc2965: false
+      strict_domain: false
+      strict_ns_domain: 0
+      strict_ns_set_initial_dollar: false
+      strict_ns_set_path: false
+      strict_ns_unverifiable: false
+      strict_rfc2965_unverifiable: true
+  body: null
+  headers: !!python/object:requests.structures.CaseInsensitiveDict
+    _store: !!python/object/apply:urllib3.packages.ordered_dict.OrderedDict
+    - - - connection
+        - !!python/tuple [Connection, keep-alive]
+      - - accept-encoding
+        - !!python/tuple [Accept-Encoding, 'gzip, deflate']
+      - - accept
+        - !!python/tuple [Accept, '*/*']
+      - - user-agent
+        - !!python/tuple [User-Agent, python-requests/2.18.4]
+  hooks:
+    response: []
+  method: GET
+  url: http://5stoneschurch.libsyn.com/rss
+status_code: 200
+url: !!python/unicode 'http://5stoneschurch.libsyn.com/rss'
