@@ -1,0 +1,70 @@
+/* Media Page ~ Rick */
+
+.podcast { margin: 1rem 0 1rem 0 }
+.podcastImage img { max-width: 100px }
+.podcastImage, .podcastTitle { display: inline-block }
+.podcastDate, .podcastListen { display: none }
+.podcastTitle a { font-size: 1rem; padding-left: 0.333rem }
+
+.subscribe, .subscribeLeft {
+  display: inline-block;
+}
+
+.subscribe a {
+  .wsite-button;
+  .wsite-button-large;
+  .wsite-button-normal
+}
+
+.subscribe span {
+  .wsite-button-inner;
+  display: inline-block;
+}
+
+.subscribe a:hover {
+  color: #fff !important;
+  background: #26cfc1
+}
+
+@media (min-width: 768px) {
+
+  .subscribeLeft {
+    min-width: 55%
+  }
+
+  .subscribeiTunes {
+    min-width: 25%;
+  }
+
+  .podcastImage {
+    min-width: 15%;
+  }
+
+  .podcastTitle {
+    min-width: 40%;
+  }
+
+  .podcastDate {
+    min-width: 25%;
+  }
+
+  .podcastTitle a { font-size: 1.2rem }
+
+  .podcastDate, .podcastListen { display: inline-block }
+
+  .podcastDate a, .podcastListen a {
+    .wsite-button;
+    .wsite-button-large;
+    .wsite-button-normal
+  }
+
+  .podcastDate a:hover, .podcastListen a:hover {
+    color: #fff !important;
+    background: #26cfc1
+  }
+
+  .podcastDate span, .podcastListen span {
+    .wsite-button-inner;
+    display: inline-block;
+  }
+}
